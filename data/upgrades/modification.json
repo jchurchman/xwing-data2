@@ -9,22 +9,13 @@
         "type": "Modification",
         "ability": "Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/ablativeplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ablativeplating.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "sizes": ["Medium", "Large"]
-      }
-    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -43,17 +34,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advancedslam.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
-    "restrictions": [
-      {
-        "action": {
-          "type": "SLAM",
-          "difficulty": "White"
-        }
-      }
-    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -68,22 +50,13 @@
         "type": "Modification",
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/afterburners.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/afterburners.png"
       }
     ],
-    "cost": {
-      "value": 8
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ],
+    "cost": { "value": 8 },
+    "restrictions": [{ "sizes": ["Small"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -102,9 +75,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/electronicbaffle.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -119,36 +90,19 @@
         "type": "Modification",
         "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.",
         "slots": ["Modification"],
-        "actions": [
-          {
-            "type": "Boost",
-            "difficulty": "White"
-          }
-        ],
+        "actions": [{ "type": "Boost", "difficulty": "White" }],
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Boost",
-              "difficulty": "White"
-            }
+            "value": { "type": "Boost", "difficulty": "White" }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/engineupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/engineupgrade.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
-    "restrictions": [
-      {
-        "action": {
-          "type": "Boost",
-          "difficulty": "Red"
-        }
-      }
-    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -163,20 +117,12 @@
         "type": "Modification",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
         "slots": ["Modification"],
-        "grants": [
-          {
-            "type": "stat",
-            "value": "hull",
-            "amount": 1
-          }
-        ],
+        "grants": [{ "type": "stat", "value": "hull", "amount": 1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/hullupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hullupgrade.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": false,
     "extended": true,
     "epic": true
@@ -195,9 +141,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/munitionsfailsafe.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -212,20 +156,12 @@
         "type": "Modification",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
         "slots": ["Modification"],
-        "grants": [
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": 1
-          }
-        ],
+        "grants": [{ "type": "stat", "value": "shields", "amount": 1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/shieldupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shieldupgrade.png"
       }
     ],
-    "cost": {
-      "value": 8
-    },
+    "cost": { "value": 8 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -244,9 +180,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/staticdischargevanes.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "standard": false,
     "extended": true,
     "epic": true
@@ -261,17 +195,12 @@
         "type": "Modification",
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lose 1 [Charge].",
         "slots": ["Modification"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/stealthdevice.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stealthdevice.png"
       }
     ],
-    "cost": {
-      "value": 8
-    },
+    "cost": { "value": 8 },
     "standard": false,
     "extended": true,
     "epic": true
@@ -290,14 +219,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tacticalscrambler.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "sizes": ["Medium", "Large"]
-      }
-    ],
+    "cost": { "value": 2 },
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -311,23 +234,14 @@
         "title": "Impervium Plating",
         "type": "Modification",
         "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "slots": ["Modification"],
         "image": "https://infinitearenas.com/xw2/images/upgrades/imperviumplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/imperviumplating.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["belbullab22starfighter"]
-      }
-    ],
-    "cost": {
-      "value": 2
-    },
+    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -347,19 +261,10 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["galacticrepublic"]
-      },
-      {
-        "action": {
-          "type": "Lock",
-          "difficulty": "White"
-        }
-      }
+      { "factions": ["galacticrepublic"] },
+      { "action": { "type": "Lock", "difficulty": "White" } }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -373,23 +278,14 @@
         "title": "Spare Parts Canisters",
         "type": "Modification",
         "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "slots": ["Modification"],
         "image": "https://infinitearenas.com/xw2/images/upgrades/sparepartscanisters.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/sparepartscanisters.png"
       }
     ],
-    "restrictions": [
-      {
-        "equipped": ["Astromech"]
-      }
-    ],
-    "cost": {
-      "value": 3
-    },
+    "restrictions": [{ "equipped": ["Astromech"] }],
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -408,9 +304,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/delayedfuses.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -419,37 +313,20 @@
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small", "Medium"]
-      }
-    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
         "title": "Angled Deflectors",
         "type": "Modification",
         "slots": ["Modification"],
-        "restrictions": [
-          {
-            "sizes": ["Small", "Medium"]
-          }
-        ],
+        "restrictions": [{ "sizes": ["Small", "Medium"] }],
         "grants": [
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": -1
-          },
+          { "type": "stat", "value": "shields", "amount": -1 },
           {
             "type": "action",
-            "value": {
-              "type": "Reinforce",
-              "difficulty": "White"
-            }
+            "value": { "type": "Reinforce", "difficulty": "White" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/angleddeflectors.png",
@@ -474,17 +351,12 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Lock",
-              "difficulty": "White"
-            }
+            "value": { "type": "Lock", "difficulty": "White" }
           }
         ]
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "xws": "targetingcomputer",
     "standard": true,
     "extended": true,
@@ -505,16 +377,10 @@
       }
     ],
     "restrictions": [
-      {
-        "shipAbility": ["Networked Calculations"]
-      },
-      {
-        "standardized": true
-      }
+      { "shipAbility": ["Networked Calculations"] },
+      { "standardized": true }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -533,9 +399,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overdrivethruster.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -550,17 +414,12 @@
         "title": "Precision Ion Engines",
         "type": "Modification",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/precisionionengines.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/precisionionengines.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -575,17 +434,12 @@
         "title": "Mandalorian Optics",
         "type": "Modification",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/mandalorianoptics.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -600,30 +454,16 @@
         "title": "Drop-Seat bay",
         "type": "Modification",
         "grants": [
-          {
-            "type": "slot",
-            "value": "Crew",
-            "amount": 2
-          },
-          {
-            "type": "slot",
-            "value": "Device",
-            "amount": -1
-          }
+          { "type": "slot", "value": "Crew", "amount": 2 },
+          { "type": "slot", "value": "Device", "amount": -1 }
         ],
         "slots": ["Modification"],
         "image": "https://infinitearenas.com/xw2/images/upgrades/dropseatbay.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dropseatbay.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["gauntletfighter"]
-      }
-    ],
-    "cost": {
-      "value": 5
-    },
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -638,17 +478,12 @@
         "title": "Beskar Reinforced Plating",
         "type": "Modification",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -663,34 +498,22 @@
         "title": "Burnout Thrusters",
         "type": "Modification",
         "slots": ["Modification"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/burnoutthrusters.png",
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "SLAM",
-              "difficulty": "White"
-            }
+            "value": { "type": "SLAM", "difficulty": "White" }
           }
         ]
       }
     ],
     "restrictions": [
-      {
-        "factions": ["scumandvillainy"]
-      },
-      {
-        "sizes": ["Small", "Medium"]
-      }
+      { "factions": ["scumandvillainy"] },
+      { "sizes": ["Small", "Medium"] }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -773,10 +596,7 @@
         "title": "Automated Loaders",
         "type": "Modification",
         "slots": ["Modification"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
     "standard": true,
@@ -791,10 +611,7 @@
     "sides": [
       {
         "title": "Computer-Assisted Handling",
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "type": "Modification",
         "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] or [Barrel Roll] action.",
         "slots": ["Modification"]
@@ -847,10 +664,7 @@
       {
         "title": "Ion Maneuvering Jet",
         "type": "Modification",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ability": "After you fully execute a Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
         "slots": ["Modification"]
       }
@@ -868,10 +682,7 @@
       {
         "title": "Fuel Injection Override",
         "type": "Modification",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ability": "While you perform a [Boost] or [Barrel Roll] action, you may spend 1 [Charge] to use a template with a speed 1 higher instead.",
         "slots": ["Modification"]
       }
@@ -906,10 +717,7 @@
       {
         "title": "Stygium Reserve",
         "type": "Modification",
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
         "slots": ["Modification"]
       }
@@ -927,10 +735,7 @@
       {
         "title": "Manual Ailerons",
         "type": "Modification",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ability": "When you decloak, you may spend 1 [Charge] to use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.",
         "slots": ["Modification"]
       }
@@ -950,17 +755,10 @@
         "type": "Modification",
         "ability": "After you fully execute a speed 3 turn [[Turn Left] or [Turn Right]], bank [[Bank Left] or [Bank Right]], Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]], or Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action, even while stressed.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ],
+    "restrictions": [{ "sizes": ["Small"] }],
     "standard": false,
     "extended": false,
     "epic": false
@@ -975,19 +773,10 @@
         "type": "Modification",
         "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
-    "restrictions": [
-      {
-        "action": {
-          "type": "Reload"
-        }
-      }
-    ],
+    "restrictions": [{ "action": { "type": "Reload" } }],
     "standard": false,
     "extended": false,
     "epic": false
@@ -1018,10 +807,7 @@
         "type": "Modification",
         "ability": "After you fully execute a red maneuver or perform a red action, you may spend 1 [Charge]. If you do, you may gain 1 deplete token to remove 1 stress token. Before you engage, you may spend 1 [Charge]. If you do, you may gain 1 strain token to remove 1 deplete token.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
     "standard": false,
@@ -1039,10 +825,7 @@
         "type": "Modification",
         "ability": "After you reveal a turn [[Turn Left]] or Segnor's Loop [[Segnor's Loop Left]] maneuver, you may spend 1 [Charge]. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [[Segnor's Loop Left]], gain 1 strain token.",
         "slots": ["Modification"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
     "standard": false,
@@ -1111,10 +894,7 @@
         "type": "Modification",
         "ability": "During the End Phase, if you are at range 1-3 of the opponent's board edge, you may spend one [Charge] to gain 2 [Mission Point].",
         "slots": ["Modification"],
-        "charges": {
-          "value": 3,
-          "recovers": 0
-        }
+        "charges": { "value": 3, "recovers": 0 }
       }
     ],
     "standard": false,

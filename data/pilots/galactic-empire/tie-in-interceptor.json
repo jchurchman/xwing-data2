@@ -24,37 +24,15 @@
   "dialCodes": ["TI"],
   "faction": "galacticempire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEInterceptor.png",
   "pilots": [
@@ -196,10 +174,7 @@
       "loadout": 9,
       "slots": ["Talent", "Modification", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
-      "charges": {
-        "value": 1,
-        "recovers": -1
-      },
+      "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris-tieininterceptor.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris-tieininterceptor.png",
@@ -261,10 +236,7 @@
       "extended": true,
       "cost": 4,
       "loadout": 6,
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": ["Missile", "Modification", "Configuration"],
       "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"],
@@ -285,28 +257,12 @@
       "standard": true,
       "extended": true,
       "cost": 5,
-      "charges": {
-        "value": 2,
-        "recovers": 1
-      },
+      "charges": { "value": 2, "recovers": 1 },
       "shipStats": [
-        {
-          "arc": "Front Arc",
-          "type": "attack",
-          "value": 3
-        },
-        {
-          "type": "agility",
-          "value": 3
-        },
-        {
-          "type": "hull",
-          "value": 3
-        },
-        {
-          "type": "shields",
-          "value": 1
-        }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
       ],
       "standardLoadout": ["predator", "fanatic-battleofyavin"],
       "ability": "Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.",
@@ -328,24 +284,11 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
-        {
-          "arc": "Front Arc",
-          "type": "attack",
-          "value": 3
-        },
-        {
-          "type": "agility",
-          "value": 3
-        },
-        {
-          "type": "hull",
-          "value": 4
-        }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
       ],
       "standardLoadout": ["disciplined", "primedthrusters"],
       "ability": "After you perform a [Barrel Roll] action, you may spend 1 [Charge] to perform a [Boost] action.",
@@ -367,24 +310,11 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
-        {
-          "arc": "Front Arc",
-          "type": "attack",
-          "value": 3
-        },
-        {
-          "type": "agility",
-          "value": 3
-        },
-        {
-          "type": "hull",
-          "value": 4
-        }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
       ],
       "standardLoadout": ["sensorjammer-battleofyavin", "elusive"],
       "ability": "After you perform an attack that hits, you may spend 1 [Charge] to perform an [Evade] action.",
@@ -406,24 +336,11 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
-        {
-          "arc": "Front Arc",
-          "type": "attack",
-          "value": 3
-        },
-        {
-          "type": "agility",
-          "value": 3
-        },
-        {
-          "type": "hull",
-          "value": 4
-        }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
       ],
       "standardLoadout": ["daredevil", "afterburners"],
       "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [SLAM] action.",
@@ -445,46 +362,18 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
-        {
-          "arc": "Front Arc",
-          "type": "attack",
-          "value": 3
-        },
-        {
-          "type": "agility",
-          "value": 3
-        },
-        {
-          "type": "hull",
-          "value": 4
-        }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
       ],
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
-        {
-          "difficulty": "White",
-          "type": "Boost"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        }
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "Lock" }
       ],
       "standardLoadout": ["marksmanship", "firecontrolsystem"],
       "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.",
@@ -515,10 +404,7 @@
         "Configuration"
       ],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force]. If you do, change all of your [Hit] results to [Critical Hit] results.",
-      "force": {
-        "value": 2,
-        "recovers": 1
-      },
+      "force": { "value": 2, "recovers": 1 },
       "keywords": ["Dark Side", "TIE"],
       "image": "https://infinitearenas.com/xw2/images/pilots/secondsister.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png",
@@ -535,12 +421,7 @@
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "cost": 4,
-      "standardLoadout": [
-        "noescape-battleoverendor",
-        "reckless-battleoverendor",
-        "primedthrusters",
-        "targetingmatrix-battleoverendor"
-      ],
+      "standardLoadout": ["noescape-battleoverendor", "reckless-battleoverendor", "primedthrusters", "targetingmatrix-battleoverendor"],
       "ability": "While you defend, if you are focused, roll 1 additional defense die.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sapphire2-battleoverendor.png",
@@ -559,17 +440,9 @@
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "cost": 5,
-      "standardLoadout": [
-        "apexpredator-battleoverendor",
-        "noescape-battleoverendor",
-        "blanksignature-battleoverendor",
-        "feedbackemitter-battleoverendor"
-      ],
+      "standardLoadout": ["apexpredator-battleoverendor", "noescape-battleoverendor", "blanksignature-battleoverendor", "feedbackemitter-battleoverendor"],
       "ability": "After you perform an attack, you may spend 1 [Charge] and gain 1 deplete token to boost or barrel roll.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/soontirfel-battleoverendor.png",
@@ -589,11 +462,7 @@
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "cost": 5,
-      "standardLoadout": [
-        "noescape-battleoverendor",
-        "outmaneuver",
-        "fuelinjectionoverride-battleoverendor"
-      ],
+      "standardLoadout": ["noescape-battleoverendor", "outmaneuver", "fuelinjectionoverride-battleoverendor"],
       "ability": "After you perform an [Evade] action, gain a calculate token",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/mausmonare-battleoverendor.png",
@@ -613,11 +482,7 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "force": {
-        "value": 1,
-        "recovers": 1,
-        "side": ["dark"]
-      },
+      "force": { "value": 1, "recovers": 1, "side": ["dark"] },
       "keywords": ["Dark Side", "TIE"],
       "slots": ["Force Power", "Modification", "Modification", "Configuration"],
       "standard": false,

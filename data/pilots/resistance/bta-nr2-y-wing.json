@@ -22,41 +22,16 @@
   "dialCodes": ["NR2"],
   "faction": "resistance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -84,10 +59,7 @@
       ],
       "ability": "After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zoriibliss.png",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/pilots/zoriibliss.png",
       "caption": "Corsair of Kijimi",
       "keywords": ["Y-wing"],
@@ -558,10 +530,7 @@
         "name": "Devastating Barrage",
         "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "keywords": ["Y-wing"],
       "slots": [
         "Astromech",

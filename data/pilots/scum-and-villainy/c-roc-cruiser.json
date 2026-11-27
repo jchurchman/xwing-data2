@@ -22,51 +22,18 @@
   ],
   "dialCodes": ["CRC-SC"],
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 0
-    },
-    {
-      "type": "hull",
-      "value": 12
-    },
-    {
-      "type": "shields",
-      "value": 4,
-      "recovers": 1
-    },
-    {
-      "type": "energy",
-      "value": 4,
-      "recovers": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 12 },
+    { "type": "shields", "value": 4, "recovers": 1 },
+    { "type": "energy", "value": 4, "recovers": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -112,34 +79,16 @@
         "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
       },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
+        { "difficulty": "White", "type": "Focus" },
         {
           "difficulty": "White",
           "type": "Reinforce",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Jam"
-          }
+          "linked": { "difficulty": "Red", "type": "Jam" }
         },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "Red",
-          "type": "Coordinate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Jam"
-        },
-        {
-          "difficulty": "White",
-          "type": "Rotate Arc"
-        }
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "White", "type": "Rotate Arc" }
       ],
       "standardLoadout": [
         "azmorigan-epicsl",

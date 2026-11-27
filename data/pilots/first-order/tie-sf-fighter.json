@@ -26,60 +26,31 @@
   "dialCodes": ["Tsf"],
   "faction": "firstorder",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "White",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "White",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Evade"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "White",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Lock"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "White",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Barrel Roll"
     }
   ],
@@ -99,10 +70,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "slots": ["Talent", "Talent", "Sensor", "Modification", "Gunner", "Tech"],
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/pilots/quickdraw.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/quickdraw.png",
       "standard": true,
@@ -248,29 +216,14 @@
         "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
         {
           "difficulty": "White",
           "type": "Reload",
-          "linked": {
-            "difficulty": "White",
-            "type": "Lock"
-          }
+          "linked": { "difficulty": "White", "type": "Lock" }
         }
       ],
       "standardLoadout": [
@@ -294,34 +247,16 @@
         "name": "Heavy Weapon Turret",
         "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
         {
           "difficulty": "White",
           "type": "Reload",
-          "linked": {
-            "difficulty": "White",
-            "type": "Lock"
-          }
+          "linked": { "difficulty": "White", "type": "Lock" }
         }
       ],
       "standardLoadout": [
@@ -345,27 +280,12 @@
         "name": "Heavy Weapon Turret",
         "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        }
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" }
       ],
       "standardLoadout": [
         "determination-evacuationofdqar",

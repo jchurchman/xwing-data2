@@ -20,9 +20,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/heavylasercannon.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -48,9 +46,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ioncannon.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -76,9 +72,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jammingbeam.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -104,9 +98,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tractorbeam.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -115,9 +107,7 @@
     "name": "Autoblasters",
     "limited": 0,
     "xws": "autoblasters",
-    "cost": {
-      "value": 7
-    },
+    "cost": { "value": 7 },
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
@@ -158,9 +148,7 @@
       }
     ],
     "name": "Synced Laser Cannons",
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "limited": 0,
     "xws": "syncedlasercannons",
     "standard": true,
@@ -176,10 +164,7 @@
         "ability": "Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protoncannons.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/protoncannons.png",
-        "charges": {
-          "value": 2,
-          "recovers": 1
-        },
+        "charges": { "value": 2, "recovers": 1 },
         "title": "Proton Cannons",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
@@ -192,9 +177,7 @@
         }
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -219,19 +202,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            }
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/underslungblastercannon.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/underslungblastercannon.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -246,10 +224,7 @@
         "title": "Ancillary Ion Weapons",
         "type": "Cannon",
         "slots": ["Cannon"],
-        "charges": {
-          "value": 2,
-          "recovers": 1
-        }
+        "charges": { "value": 2, "recovers": 1 }
       }
     ],
     "standardLoadoutOnly": true,

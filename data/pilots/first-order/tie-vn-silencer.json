@@ -24,41 +24,16 @@
   "dialCodes": ["Tvn"],
   "faction": "firstorder",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIESilencer.png",
   "pilots": [
@@ -99,24 +74,13 @@
       "cost": 7,
       "loadout": 24,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": ["dark"]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "conditions": ["illshowyouthedarkside"],
-      "slots": [
-        "Torpedo",
-        "Missile",
-        "Force Power",
-        "Talent",
-        "Tech",
-        "Configuration"
-      ],
+      "slots": ["Torpedo", "Missile", "Force Power", "Talent", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
       "standard": true,
@@ -238,11 +202,7 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": ["dark"]
-      },
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "standardLoadout": [
         "determination-evacuationofdqar",
         "malice",

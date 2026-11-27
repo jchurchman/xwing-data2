@@ -12,20 +12,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Barrel Roll",
-              "difficulty": "White"
-            }
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Barrel Roll",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
             }
           }
         ],
@@ -41,14 +35,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/integratedsfoils-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["t70xwing"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["t70xwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -64,29 +52,15 @@
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend your lock during the attack. Add [Torpedo] and [Missile] slots.",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "slot",
-            "value": "Torpedo",
-            "amount": 1
-          },
-          {
-            "type": "slot",
-            "value": "Missile",
-            "amount": 1
-          }
+          { "type": "slot", "value": "Torpedo", "amount": 1 },
+          { "type": "slot", "value": "Missile", "amount": 1 }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/os1arsenalloadout.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/os1arsenalloadout.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["alphaclassstarwing"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -113,14 +87,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/pivotwing-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["ut60duwing"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["ut60duwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -147,14 +115,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/swivelwing-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["gauntletfighter"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -170,36 +132,24 @@
         "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "actions": [
-          {
-            "type": "Boost",
-            "difficulty": "White"
-          },
+          { "type": "Boost", "difficulty": "White" },
           {
             "type": "Focus",
             "difficulty": "White",
-            "linked": {
-              "difficulty": "Red",
-              "type": "Boost"
-            }
+            "linked": { "difficulty": "Red", "type": "Boost" }
           }
         ],
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Boost",
-              "difficulty": "White"
-            }
+            "value": { "type": "Boost", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Boost",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Boost", "difficulty": "Red" }
             }
           }
         ],
@@ -215,14 +165,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/servomotorsfoils-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["t65xwing"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["t65xwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -237,25 +181,13 @@
         "type": "Configuration",
         "ability": "While you have exactly 1 disarm token, you can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
         "slots": ["Configuration"],
-        "grants": [
-          {
-            "type": "slot",
-            "value": "Cannon",
-            "amount": 1
-          }
-        ],
+        "grants": [{ "type": "slot", "value": "Cannon", "amount": 1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/xg1assaultconfiguration.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/xg1assaultconfiguration.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["alphaclassstarwing"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -282,14 +214,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/grapplingstruts-sideb.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["vultureclassdroidfighter"]
-      }
-    ],
-    "cost": {
-      "value": 0
-    },
+    "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -304,33 +230,16 @@
         "type": "Configuration",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "stat",
-            "value": "agility",
-            "amount": -1
-          },
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": 2
-          },
-          {
-            "type": "stat",
-            "value": "attack",
-            "arc": "Front Arc",
-            "amount": 1
-          }
+          { "type": "stat", "value": "agility", "amount": -1 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/delta7b.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/delta7b.png",
         "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["delta7aethersprite"]
-      }
-    ],
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
     "standard": false,
     "extended": false,
     "epic": false
@@ -349,14 +258,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/calibratedlasertargeting.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["delta7aethersprite"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -383,17 +286,11 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/landingstruts-sideb.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["hyenaclassdroidbomber"]
-      }
-    ],
+    "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
     "standard": true,
     "extended": true,
     "epic": true,
-    "cost": {
-      "value": 0
-    }
+    "cost": { "value": 0 }
   },
   {
     "name": "Corsair Refit",
@@ -409,44 +306,18 @@
         "type": "Configuration",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "slot",
-            "value": "cannon",
-            "amount": 1
-          },
-          {
-            "type": "slot",
-            "value": "turret",
-            "amount": 1
-          },
-          {
-            "type": "slot",
-            "value": "missile",
-            "amount": 1
-          },
-          {
-            "type": "stat",
-            "value": "hull",
-            "amount": 2
-          },
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": -2
-          },
-          {
-            "type": "stat",
-            "value": "energy",
-            "amount": 1
-          }
+          { "type": "slot", "value": "cannon", "amount": 1 },
+          { "type": "slot", "value": "turret", "amount": 1 },
+          { "type": "slot", "value": "missile", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "stat", "value": "energy", "amount": 1 }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/corsairrefit.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/corsairrefit.png"
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 }
   },
   {
     "name": "Stabilized S-foils",
@@ -464,18 +335,12 @@
             "value": {
               "type": "Barrel Roll",
               "difficulty": "White",
-              "linked": {
-                "type": "Evade",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Evade", "difficulty": "Red" }
             }
           },
           {
             "type": "action",
-            "value": {
-              "type": "Reload",
-              "difficulty": "Red"
-            }
+            "value": { "type": "Reload", "difficulty": "Red" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stabilizedsfoils.png",
@@ -492,10 +357,7 @@
             "value": {
               "type": "Barrel Roll",
               "difficulty": "White",
-              "linked": {
-                "type": "Lock",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Lock", "difficulty": "Red" }
             }
           }
         ],
@@ -503,9 +365,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/stabilizedsfoils-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -530,9 +390,7 @@
       }
     ],
     "name": "Repulsorlift Stabilizers",
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
     "standard": true,
@@ -553,9 +411,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/alpha3bbesh.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -570,17 +426,12 @@
         "title": "Alpha-3E “Esk”",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "charges": {
-          "value": 2,
-          "recovers": 1
-        },
+        "charges": { "value": 2, "recovers": 1 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/alpha3eesk.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/alpha3eesk.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -595,20 +446,14 @@
         "title": "Intercept Booster (Attached)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "charges": {
-          "value": 3,
-          "recovers": -1
-        },
+        "charges": { "value": 3, "recovers": -1 },
         "grants": [
           {
             "type": "action",
             "value": {
               "type": "SLAM",
               "difficulty": "White",
-              "linked": {
-                "type": "Lock",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Lock", "difficulty": "Red" }
             }
           }
         ],
@@ -624,9 +469,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/interceptbooster-sideb.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -644,20 +487,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Calculate",
-              "difficulty": "White"
-            }
+            "value": { "type": "Calculate", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Barrel Roll",
               "difficulty": "White",
-              "linked": {
-                "type": "Calculate",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Calculate", "difficulty": "Red" }
             }
           }
         ],
@@ -665,9 +502,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/maneuverassistmgk300.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -685,20 +520,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Calculate",
-              "difficulty": "White"
-            }
+            "value": { "type": "Calculate", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Rotate Arc",
               "difficulty": "White",
-              "linked": {
-                "type": "Calculate",
-                "difficulty": "White"
-              }
+              "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
         ],
@@ -706,9 +535,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/targetassistmgk300.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -732,16 +559,10 @@
       }
     ],
     "restrictions": [
-      {
-        "shipAbility": ["Autothrusters"]
-      },
-      {
-        "standardized": true
-      }
+      { "shipAbility": ["Autothrusters"] },
+      { "standardized": true }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -765,19 +586,11 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["galacticempire"]
-      },
-      {
-        "ships": ["tieddefender"]
-      },
-      {
-        "standardized": true
-      }
+      { "factions": ["galacticempire"] },
+      { "ships": ["tieddefender"] },
+      { "standardized": true }
     ],
-    "cost": {
-      "value": 0
-    },
+    "cost": { "value": 0 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -806,27 +619,16 @@
           "maxrange": 3,
           "ordnance": false
         },
-        "grants": [
-          {
-            "type": "arc",
-            "value": "Single Turret Arc"
-          }
-        ],
+        "grants": [{ "type": "arc", "value": "Single Turret Arc" }],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/vectoredcannonsrz1.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/vectoredcannonsrz1.png"
       }
     ],
     "restrictions": [
-      {
-        "shipAbility": ["Vectored Thrusters"]
-      },
-      {
-        "standardized": true
-      }
+      { "shipAbility": ["Vectored Thrusters"] },
+      { "standardized": true }
     ],
-    "cost": {
-      "value": 0
-    }
+    "cost": { "value": 0 }
   },
   {
     "name": "Wartime Loadout",
@@ -845,39 +647,20 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Lock",
-              "difficulty": "White"
-            }
+            "value": { "type": "Lock", "difficulty": "White" }
           },
           {
             "type": "action",
-            "value": {
-              "type": "Reload",
-              "difficulty": "White"
-            }
+            "value": { "type": "Reload", "difficulty": "White" }
           },
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": 2
-          }
+          { "type": "stat", "value": "shields", "amount": 2 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/wartimeloadout.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/wartimeloadout.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "ships": ["btanr2ywing"]
-      },
-      {
-        "standardized": true
-      }
-    ],
+    "cost": { "value": 2 },
+    "restrictions": [{ "ships": ["btanr2ywing"] }, { "standardized": true }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -898,10 +681,7 @@
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Jam",
-                "difficulty": "White"
-              }
+              "linked": { "type": "Jam", "difficulty": "White" }
             }
           },
           {
@@ -909,10 +689,7 @@
             "value": {
               "type": "Barrel Roll",
               "difficulty": "White",
-              "linked": {
-                "type": "Jam",
-                "difficulty": "White"
-              }
+              "linked": { "type": "Jam", "difficulty": "White" }
             }
           },
           {
@@ -920,32 +697,20 @@
             "value": {
               "type": "Boost",
               "difficulty": "White",
-              "linked": {
-                "type": "Jam",
-                "difficulty": "White"
-              }
+              "linked": { "type": "Jam", "difficulty": "White" }
             }
           },
           {
             "type": "action",
-            "value": {
-              "type": "Jam",
-              "difficulty": "White"
-            }
+            "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/enhancedjammingsuite.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/enhancedjammingsuite.png"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": ["tiewiwhispermodifiedinterceptor"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["tiewiwhispermodifiedinterceptor"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -976,10 +741,7 @@
         "title": "Strut-Lock Override",
         "type": "Configuration",
         "ability": "At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "slots": ["Configuration"]
       }
     ],
@@ -998,17 +760,10 @@
         "type": "Configuration",
         "ability": "After you reveal a turn [[Turn Left] or [Turn Right]] maneuver, you may spend 1 [Charge], gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver in the same direction instead.",
         "slots": ["Configuration"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["gauntletfighter", "ut60duwing"]
-      }
-    ],
+    "restrictions": [{ "ships": ["gauntletfighter", "ut60duwing"] }],
     "standard": false,
     "extended": false,
     "epic": false
@@ -1026,12 +781,8 @@
       }
     ],
     "restrictions": [
-      {
-        "ships": ["nantexclassstarfighter"]
-      },
-      {
-        "standardized": true
-      }
+      { "ships": ["nantexclassstarfighter"] },
+      { "standardized": true }
     ],
     "standard": false,
     "extended": false,

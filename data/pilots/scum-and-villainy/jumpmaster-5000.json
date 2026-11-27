@@ -23,45 +23,23 @@
   "dialCodes": ["JM5"],
   "faction": "scumandvillainy",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Lock"
     },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Jumpmaster.png",
   "pilots": [
@@ -90,10 +68,7 @@
       "xws": "dengar",
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dengar.png",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Cannon",
@@ -146,10 +121,7 @@
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
       "image": "https://infinitearenas.com/xw2/images/pilots/teltrevura.png",
-      "charges": {
-        "value": 1,
-        "recovers": 0
-      },
+      "charges": { "value": 1, "recovers": 0 },
       "slots": [
         "Talent",
         "Cannon",
@@ -197,10 +169,7 @@
       "initiative": 6,
       "limited": 1,
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "standardLoadout": [
         "r2g8-armedanddangerous",
         "synchronizedhandling-armedanddangerous",

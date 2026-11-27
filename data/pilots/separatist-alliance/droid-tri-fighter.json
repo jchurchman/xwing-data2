@@ -25,48 +25,23 @@
   "dialCodes": ["DTF"],
   "faction": "separatistalliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Calculate"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
+    { "difficulty": "White", "type": "Calculate" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Evade"
-      }
+      "linked": { "difficulty": "Red", "type": "Evade" }
     },
     {
       "difficulty": "White",
       "type": "Boost",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Calculate"
-      }
+      "linked": { "difficulty": "Red", "type": "Calculate" }
     }
   ],
   "pilots": [
@@ -115,14 +90,7 @@
       "loadout": 6,
       "image": "https://infinitearenas.com/xw2/images/pilots/phlacarphoccprototype.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
       "keywords": ["Droid"],
       "epic": true
     },
@@ -144,14 +112,7 @@
       "loadout": 3,
       "image": "https://infinitearenas.com/xw2/images/pilots/fearsomepredator.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fearsomepredator.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
       "keywords": ["Droid"],
       "epic": true
     },
@@ -172,14 +133,7 @@
       "loadout": 4,
       "image": "https://infinitearenas.com/xw2/images/pilots/dis347.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
       "keywords": ["Droid"],
       "epic": true
     },
@@ -236,11 +190,7 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dis347-siegeofcoruscant.png",
-      "standardLoadout": [
-        "marksmanship",
-        "afterburners",
-        "contingencyprotocol-siegeofcoruscant"
-      ],
+      "standardLoadout": ["marksmanship", "afterburners", "contingencyprotocol-siegeofcoruscant"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png",
       "standard": true,
       "extended": true,
@@ -260,11 +210,7 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dist81-siegeofcoruscant.png",
-      "standardLoadout": [
-        "outmaneuver",
-        "afterburners",
-        "contingencyprotocol-siegeofcoruscant"
-      ],
+      "standardLoadout": ["outmaneuver", "afterburners", "contingencyprotocol-siegeofcoruscant"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png",
       "standard": true,
       "extended": true,
@@ -284,11 +230,7 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/phlacarphoccprototype-siegeofcoruscant.png",
-      "standardLoadout": [
-        "afterburners",
-        "contingencyprotocol-siegeofcoruscant",
-        "evasionsequence7-siegeofcoruscant"
-      ],
+      "standardLoadout": ["afterburners", "contingencyprotocol-siegeofcoruscant", "evasionsequence7-siegeofcoruscant"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png",
       "standard": true,
       "extended": true,
@@ -305,33 +247,18 @@
         "text": "This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers."
       },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Evade"
-          }
+          "linked": { "difficulty": "Red", "type": "Evade" }
         },
         {
           "difficulty": "White",
           "type": "Boost",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Focus"
-          }
+          "linked": { "difficulty": "Red", "type": "Focus" }
         }
       ],
       "caption": "Impatient Invader",
@@ -357,10 +284,7 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "keywords": ["Droid"],
       "slots": [
         "Talent",

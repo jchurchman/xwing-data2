@@ -29,18 +29,13 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            }
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 }
   },
   {
     "name": "Ordnance Tubes",
@@ -65,9 +60,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 1
-    }
+    "cost": { "value": 1 }
   },
   {
     "name": "Point-Defense Battery",
@@ -85,10 +78,7 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            }
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "attack": {
@@ -108,9 +98,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 9
-    }
+    "cost": { "value": 9 }
   },
   {
     "name": "Targeting Battery",
@@ -128,10 +116,7 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            }
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "attack": {
@@ -151,9 +136,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 }
   },
   {
     "name": "Turbolaser Battery",
@@ -171,10 +154,7 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            }
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "attack": {
@@ -194,9 +174,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 10
-    }
+    "cost": { "value": 10 }
   },
   {
     "name": "Tractor Tentacles",
@@ -206,12 +184,8 @@
     "extended": false,
     "epic": true,
     "restrictions": [
-      {
-        "sizes": ["Huge"]
-      },
-      {
-        "ships": ["tridentclassassaultship"]
-      }
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
     ],
     "sides": [
       {
@@ -236,9 +210,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 0
-    }
+    "cost": { "value": 0 }
   },
   {
     "name": "Proton Cannon Battery",
@@ -270,9 +242,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 10
-    }
+    "cost": { "value": 10 }
   },
   {
     "name": "Enhanced Propulsion",
@@ -297,16 +267,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "restrictions": [
-      {
-        "sizes": ["Huge"]
-      },
-      {
-        "ships": ["tridentclassassaultship"]
-      }
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
     ]
   },
   {
@@ -339,16 +303,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "restrictions": [
-      {
-        "sizes": ["Huge"]
-      },
-      {
-        "ships": ["tridentclassassaultship"]
-      }
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
     ]
   },
   {

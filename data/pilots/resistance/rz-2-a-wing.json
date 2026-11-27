@@ -24,45 +24,17 @@
   "dialCodes": ["RZ2"],
   "faction": "resistance",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_RZ-2_A-wing.png",
   "pilots": [
@@ -102,10 +74,7 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/tallissanlintra.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tallissanlintra.png",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Talent",
@@ -225,10 +194,7 @@
       "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
       "cost": 4,
       "loadout": 7,
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zizitlo.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/zizitlo.png",
       "keywords": ["A-wing"],
@@ -371,35 +337,17 @@
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "shipActions": [
         {
           "difficulty": "White",
           "type": "Focus",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Coordinate"
-          }
+          "linked": { "difficulty": "Red", "type": "Coordinate" }
         },
-        {
-          "difficulty": "White",
-          "type": "Evade"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
-        {
-          "difficulty": "White",
-          "type": "Boost"
-        }
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" }
       ],
       "standardLoadout": [
         "forthecause-evacuationofdqar",
@@ -423,10 +371,7 @@
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "standardLoadout": [
         "forthecause-evacuationofdqar",
         "heroic",

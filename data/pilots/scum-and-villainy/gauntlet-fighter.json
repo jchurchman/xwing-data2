@@ -21,46 +21,17 @@
   "dialCodes": ["GtF"],
   "faction": "scumandvillainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "arc": "Rear Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 9
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 9 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -68,11 +39,7 @@
       "name": "Maul",
       "image": "https://infinitearenas.com/xw2/images/pilots/maul.png",
       "ability": "While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.",
-      "force": {
-        "side": ["dark"],
-        "value": 3,
-        "recovers": 1
-      },
+      "force": { "side": ["dark"], "value": 3, "recovers": 1 },
       "cost": 8,
       "loadout": 15,
       "initiative": 5,
@@ -155,10 +122,7 @@
         "name": "Winged Reversal",
         "text": "After you reveal a turn [[Turn Left] or [Turn Right]] maneuver, you may spend 1 [Charge], gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver in the same direction instead."
       },
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "standardLoadout": [
         "mandaloriantactics-armedanddangerous",
         "niteowlsentries-armedanddangerous",

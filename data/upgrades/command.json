@@ -16,9 +16,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/agentoftheempire.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Dreadnought Hunter",
@@ -37,9 +35,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/dreadnoughthunter.png"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 }
   },
   {
     "name": "First Order Elite",
@@ -58,9 +54,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/firstorderelite.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Veteran Wing Leader",
@@ -79,9 +73,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/veteranwingleader.png"
       }
     ],
-    "cost": {
-      "value": 2
-    }
+    "cost": { "value": 2 }
   },
   {
     "name": "Admiral Ozzel",
@@ -100,9 +92,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/admiralozzel.png"
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 }
   },
   {
     "name": "Azmorigan",
@@ -121,9 +111,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/azmorigan.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Captain Needa",
@@ -138,17 +126,12 @@
         "title": "Captain Needa",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "charges": {
-          "value": 4,
-          "recovers": 0
-        },
+        "charges": { "value": 4, "recovers": 0 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/captainneeda.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/captainneeda.png"
       }
     ],
-    "cost": {
-      "value": 8
-    }
+    "cost": { "value": 8 }
   },
   {
     "name": "Carlist Rieekan",
@@ -166,19 +149,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Evade",
-              "difficulty": "Red"
-            }
+            "value": { "type": "Evade", "difficulty": "Red" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/carlistrieekan.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/carlistrieekan.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Jan Dodonna",
@@ -197,9 +175,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/jandodonna.png"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 }
   },
   {
     "name": "Raymus Antilles",
@@ -218,9 +194,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/raymusantilles.png"
       }
     ],
-    "cost": {
-      "value": 8
-    }
+    "cost": { "value": 8 }
   },
   {
     "name": "Stalwart Captain",
@@ -239,14 +213,8 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/stalwartcaptain.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "sizes": ["Huge"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Strategic Commander",
@@ -261,22 +229,13 @@
         "title": "Strategic Commander",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "charges": {
-          "value": 3,
-          "recovers": 0
-        },
+        "charges": { "value": 3, "recovers": 0 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/strategiccommander.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/strategiccommander.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "sizes": ["Huge"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Jedi Commander",
@@ -303,16 +262,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/jedicommander-sideb.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "restrictions": [
-      {
-        "factions": ["galacticrepublic"]
-      },
-      {
-        "ships": ["delta7aethersprite", "eta2actis"]
-      }
+      { "factions": ["galacticrepublic"] },
+      { "ships": ["delta7aethersprite", "eta2actis"] }
     ]
   },
   {
@@ -332,16 +285,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype-command.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "restrictions": [
-      {
-        "factions": ["rebelalliance"]
-      },
-      {
-        "ships": ["asf01bwing"]
-      }
+      { "factions": ["rebelalliance"] },
+      { "ships": ["asf01bwing"] }
     ]
   },
   {
@@ -369,9 +316,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/bounty-sideb.png"
       }
     ],
-    "cost": {
-      "value": 1
-    }
+    "cost": { "value": 1 }
   },
   {
     "name": "Phoenix Squadron",
@@ -398,9 +343,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/phoenixsquadron-sideb.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Shadow Wing",
@@ -427,9 +370,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/shadowwing-sideb.png"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   },
   {
     "name": "Skystrike Academy Class",
@@ -456,9 +397,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/skystrikeacademyclass-sideb.png"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 }
   },
   {
     "name": "In It For The Money/Rebellion",
@@ -485,19 +424,11 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/initforthemoneyrebellion-sideb.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "restrictions": [
-      {
-        "factions": ["scumandvillainy"]
-      },
-      {
-        "standardized": true
-      },
-      {
-        "non-limited": false
-      }
+      { "factions": ["scumandvillainy"] },
+      { "standardized": true },
+      { "non-limited": false }
     ]
   },
   {
@@ -517,16 +448,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/martuuk.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "sizes": ["Huge"]
-      }
+      { "factions": ["separatistalliance"] },
+      { "sizes": ["Huge"] }
     ]
   },
   {
@@ -546,16 +471,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/rifftamson.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "sizes": ["Huge"]
-      }
+      { "factions": ["separatistalliance"] },
+      { "sizes": ["Huge"] }
     ]
   },
   {
@@ -571,40 +490,25 @@
         "title": "Asajj Ventress",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants": [
+        "grants" : [
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Coordinate",
-                "difficulty": "Purple"
-              }
+              "linked": { "type": "Coordinate", "difficulty": "Purple" }
             }
           },
-          {
-            "type": "force",
-            "value": {
-              "side": ["dark"]
-            },
-            "amount": 1
-          }
+          { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/asajjventresscommand.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/asajjventresscommand.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "restrictions": [
-      {
-        "factions": ["separatistalliance", "scumandvillainy"]
-      },
-      {
-        "sizes": ["Huge"]
-      }
+      { "factions": ["separatistalliance", "scumandvillainy"] },
+      { "sizes": ["Huge"] }
     ]
   },
   {
@@ -624,14 +528,8 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/zealouscaptain.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "sizes": ["Huge"]
-      }
-    ]
+    "cost": { "value": 4 },
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Hondo Ohnaka",
@@ -643,23 +541,17 @@
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and choose 1 friendly ship at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "title": "Hondo Ohnaka",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants": [
+        "grants" : [
           {
             "type": "action",
             "value": {
               "type": "Coordinate",
               "difficulty": "White",
-              "linked": {
-                "type": "Jam",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Jam", "difficulty": "Red" }
             }
           }
         ],
@@ -667,13 +559,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/hondoohnakacommand.png"
       }
     ],
-    "cost": {
-      "value": 7
-    },
+    "cost": { "value": 7 },
     "restrictions": [
-      {
-        "sizes": ["Huge"]
-      }
+      { "sizes": ["Huge"] }
     ]
   },
   {
@@ -693,16 +581,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/generalgrievouscommand.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "restrictions": [
-      {
-        "sizes": ["Huge"]
-      },
-      {
-        "factions": ["separatistalliance"]
-      }
+      { "sizes": ["Huge"] },
+      { "factions": ["separatistalliance"] }
     ]
   },
   {
@@ -722,13 +604,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/combatboardingtube.png"
       }
     ],
-    "cost": {
-      "value": "?"
-    },
+    "cost": { "value": "?" },
     "restrictions": [
-      {
-        "ships": ["gauntletfighter"]
-      }
+      { "ships": ["gauntletfighter"] }
     ]
   },
   {
@@ -741,10 +619,7 @@
         "type": "Command",
         "ability": "Bonus Attack: After performing a primary attack, you may spend 2 [Energy] and 1 [Charge] to perform a bonus primary attack against a different target.",
         "slots": ["Command"],
-        "charges": {
-          "value": 1,
-          "recovers": 1
-        }
+        "charges": { "value": 1, "recovers": 1 }
       }
     ],
     "standard": false,

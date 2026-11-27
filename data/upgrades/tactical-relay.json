@@ -14,25 +14,16 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Calculate",
-              "difficulty": "White"
-            }
+            "value": { "type": "Calculate", "difficulty": "White" }
           }
         ]
       }
     ],
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "solitary": true
-      }
+      { "factions": ["separatistalliance"] },
+      { "solitary": true }
     ],
-    "cost": {
-      "value": 8
-    },
+    "cost": { "value": 8 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -52,16 +43,10 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "solitary": true
-      }
+      { "factions": ["separatistalliance"] },
+      { "solitary": true }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -81,16 +66,10 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "solitary": true
-      }
+      { "factions": ["separatistalliance"] },
+      { "solitary": true }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -110,16 +89,10 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["separatistalliance"]
-      },
-      {
-        "solitary": true
-      }
+      { "factions": ["separatistalliance"] },
+      { "solitary": true }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -133,25 +106,17 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/kalani.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/kalani.png",
         "ability": "After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.",
-        "charges": {
-          "value": 3,
-          "recovers": 3
-        },
+        "charges": { "value": 3, "recovers": 3 },
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Calculate",
-              "difficulty": "White"
-            }
+            "value": { "type": "Calculate", "difficulty": "White" }
           }
         ]
       }
     ],
     "name": "Kalani",
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "limited": 1,
     "xws": "kalani",
     "standard": true,

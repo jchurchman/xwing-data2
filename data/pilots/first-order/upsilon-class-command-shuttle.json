@@ -23,45 +23,17 @@
   "dialCodes": ["Ups"],
   "faction": "firstorder",
   "stats": [
-    {
-      "type": "attack",
-      "value": 4,
-      "arc": "Front Arc"
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 6
-    }
+    { "type": "attack", "value": 4, "arc": "Front Arc" },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 6 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Coordinate"
-    },
-    {
-      "difficulty": "White",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Coordinate" },
+    { "difficulty": "White", "type": "Jam" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_UpsilonShuttle.png",
   "pilots": [
@@ -132,10 +104,7 @@
       "limited": 1,
       "cost": 7,
       "loadout": 14,
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
         "name": "Linked Battery",
@@ -194,10 +163,7 @@
       "loadout": 17,
       "xws": "lieutenanttavson",
       "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action.",
-      "charges": {
-        "value": 2,
-        "recovers": 1
-      },
+      "charges": { "value": 2, "recovers": 1 },
       "shipAbility": {
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
@@ -230,10 +196,7 @@
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "charges": { "value": 2, "recovers": 0 },
       "slots": [
         "Sensor",
         "Talent",
@@ -262,10 +225,7 @@
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "standardLoadout": [
         "generalhux-evacuationofdqar",
         "advancedsensors",

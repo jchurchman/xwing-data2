@@ -13,9 +13,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/heightenedperception.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -34,9 +32,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/instinctiveaim.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -55,9 +51,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/sense.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": false,
     "extended": true,
     "epic": true
@@ -76,14 +70,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/supernaturalreflexes.png"
       }
     ],
-    "cost": {
-      "value": 24
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ],
+    "cost": { "value": 24 },
+    "restrictions": [{ "sizes": ["Small"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -102,9 +90,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/brilliantevasion.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -123,14 +109,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hate.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
-    "restrictions": [
-      {
-        "force_side": ["dark"]
-      }
-    ],
+    "cost": { "value": 5 },
+    "restrictions": [{ "force_side": ["dark"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -149,9 +129,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/predictiveshot.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -170,23 +148,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Coordinate",
-              "difficulty": "Purple"
-            }
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/battlemeditation.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "factions": ["galacticrepublic"]
-      }
-    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -210,9 +179,7 @@
         }
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "xws": "foresight",
     "limited": 0,
     "standard": true,
@@ -232,9 +199,7 @@
         "type": "Force Power"
       }
     ],
-    "cost": {
-      "value": 15
-    },
+    "cost": { "value": 15 },
     "xws": "precognitivereflexes",
     "standard": false,
     "extended": true,
@@ -254,9 +219,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/extrememaneuvers.png"
       }
     ],
-    "cost": {
-      "value": 8
-    },
+    "cost": { "value": 8 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -275,9 +238,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/compassion.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -296,9 +257,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/malice.png"
       }
     ],
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -317,9 +276,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/shatteringshot.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -338,9 +295,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/patience.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -374,11 +329,7 @@
         "slots": ["Force Power"]
       }
     ],
-    "restrictions": [
-      {
-        "force_side": ["dark"]
-      }
-    ],
+    "restrictions": [{ "force_side": ["dark"] }],
     "standard": false,
     "extended": false,
     "epic": false

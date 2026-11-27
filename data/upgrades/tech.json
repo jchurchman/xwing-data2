@@ -13,9 +13,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advancedoptics.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -34,14 +32,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ferrospherepaint.png"
       }
     ],
-    "cost": {
-      "value": 3
-    },
-    "restrictions": [
-      {
-        "factions": ["resistance"]
-      }
-    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -60,17 +52,8 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hyperspacetrackingdata.png"
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "factions": ["firstorder"]
-      },
-      {
-        "sizes": ["Large"]
-      }
-    ],
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["firstorder"] }, { "sizes": ["Large"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -89,14 +72,8 @@
         "slots": ["Tech"]
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Small"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -115,9 +92,7 @@
         "slots": ["Tech"]
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -136,9 +111,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/patternanalyzer.png"
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -157,18 +130,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/biohexacryptcodes.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "restrictions": [
-      {
-        "factions": ["firstorder"]
-      },
-      {
-        "action": {
-          "type": "Lock"
-        }
-      }
+      { "factions": ["firstorder"] },
+      { "action": { "type": "Lock" } }
     ],
     "standard": true,
     "extended": true,
@@ -181,10 +146,7 @@
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "title": "Deuterium Power Cells",
         "type": "Tech",
         "slots": ["Tech", "Modification"],
@@ -192,9 +154,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/deuteriumpowercells.png"
       }
     ],
-    "cost": {
-      "value": 6
-    },
+    "cost": { "value": 6 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -211,9 +171,7 @@
       }
     ],
     "name": "Automated Target Priority",
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "limited": 0,
     "xws": "automatedtargetpriority",
     "standard": true,
@@ -234,14 +192,8 @@
           "type": "Remote",
           "initiative": 0,
           "stats": [
-            {
-              "type": "agility",
-              "value": 3
-            },
-            {
-              "type": "hull",
-              "value": 2
-            }
+            { "type": "agility", "value": 3 },
+            { "type": "hull", "value": 2 }
           ],
           "image": "https://infinitearenas.com/xw2/images/remotes/sensorbuoy.png",
           "text": "First Order sensor buoys are often placed to warn of enemies approaching their hidden fortresses."
@@ -249,9 +201,7 @@
       }
     ],
     "name": "Sensor Buoy Suite",
-    "cost": {
-      "value": 4
-    },
+    "cost": { "value": 4 },
     "limited": 1,
     "xws": "sensorbuoysuite",
     "standard": true,
@@ -272,13 +222,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/sensorscramblers.png"
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "restrictions": [
-      {
-        "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"]
-      }
+      { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
     ],
     "standard": true,
     "extended": true,
@@ -294,10 +240,7 @@
         "type": "Tech",
         "ability": "After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1 [Charge] and gain 1 stress token. If you do, that friendly ship may gain 1 calculate token.",
         "slots": ["Tech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
     "standard": false,
@@ -314,17 +257,10 @@
         "type": "Tech",
         "ability": "While you perform a primary attack, if the defender does not have any green tokens, you may spend 1 [Charge] and 1 [Critical Hit] result. If you do, add 2 [Hit] results.",
         "slots": ["Tech"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["firstorder"]
-      }
-    ],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": false,
     "extended": false,
     "epic": false
@@ -339,10 +275,7 @@
         "type": "Tech",
         "ability": "Before you engage, you may spend 1 [Charge] to gain a [Calculate] token. After you fully execute a turn [[Turn Left]], bank [[Bank Left]] or Segnor's Loop [[Segnor's Loop Left]] maneuver, recover 1[Charge].",
         "slots": ["Tech"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
     "standard": false,
@@ -428,10 +361,7 @@
         "type": "Tech",
         "ability": "After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1 [Charge] and gain a stress token. If you do, that friendly ship may gain a calculate token.",
         "slots": ["Tech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
     "standard": false,
@@ -466,10 +396,7 @@
         "type": "Tech",
         "ability": "After you coordinate a ship, you may spend 1 [Charge]. If you do, assign a jam token to an enemy ship at range 0-1 of the coordinated ship.",
         "slots": ["Tech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
     "standard": false,

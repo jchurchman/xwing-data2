@@ -471,6 +471,53 @@ function convertUpgrade(id, u, yasb, xwa) {
   return upgrade;
 }
 
+// --- Writing ------------------------------------------------------------------------------------
+
+// The index of the "]" closing the array that starts at text[open], skipping strings.
+function closingBracket(text, open) {
+  let depth = 0;
+  for (let i = open; i < text.length; i++) {
+    const c = text[i];
+    if (c === '"') {
+      for (i++; text[i] !== '"'; i++) if (text[i] === "\\") i++;
+    } else if (c === "[" || c === "{") {
+      depth++;
+    } else if (c === "]" || c === "}") {
+      depth--;
+      if (depth === 0) return i;
+    }
+  }
+  return fail("unbalanced JSON");
+}
+
+// Adds items to the end of an array in a file's text and leaves every other character as it is,
+// so existing entries keep their formatting. Each item is formatted with Prettier on its own and
+// indented one level deeper than the line the array starts on. `open` is the index of its "[".
+function appendToArray(text, open, items, options) {
+  const close = closingBracket(text, open);
+  const lineStart = text.lastIndexOf("\n", open) + 1;
+  const indent = `${text.slice(lineStart).match(/^ */)[0]}  `;
+  const format = item =>
+    prettier
+      .format(JSON.stringify(item), { ...options, parser: "json", printWidth: options.printWidth - indent.length })
+      .trim()
+      .split("\n")
+      .map(line => indent + line)
+      .join("\n");
+  const before = text.slice(0, close).replace(/\s*$/, "");
+  const empty = before.endsWith("[");
+  const closingIndent = text.slice(text.lastIndexOf("\n", close) + 1, close);
+  if (/\S/.test(closingIndent)) fail("an array to append to must end with ] on its own line");
+  return `${before}${empty ? "" : ","}\n${items.map(format).join(",\n")}\n${closingIndent}${text.slice(close)}`;
+}
+
+// The index of the "[" starting the array under key in a file's text; the key must be unique.
+function arrayAt(text, key, after = 0) {
+  const i = text.indexOf(`"${key}"`, after);
+  if (i === -1 || text.indexOf(`"${key}"`, i + 1) !== -1 && after === 0) fail(`no single "${key}" array`);
+  return text.indexOf("[", i);
+}
+
 // --- Main ---------------------------------------------------------------------------------------
 
 function main() {
@@ -481,7 +528,14 @@ function main() {
   const yasb = loadYasb(yasbPath);
   const points = loadPoints(pointsPath);
   const data = loadData();
-  const changed = new Set();
+  // Entries added to each existing file, and the whole file's intended contents.
+  const added = new Map();
+  const intended = new Map();
+  const add = (file, json, item) => {
+    if (!added.has(file)) added.set(file, []);
+    added.get(file).push(item);
+    intended.set(file, json);
+  };
 
   // Pilots XWA prices that are missing here.
   const loadout = { cards: new Map(), ids: new Map() };
@@ -489,7 +543,7 @@ function main() {
   for (const xwa of newPilots) {
     const { shipFile, pilot } = convertPilot(xwa, yasb, data, loadout);
     shipFile.json.pilots.push(pilot);
-    changed.add(shipFile.file);
+    add(shipFile.file, shipFile.json, pilot);
   }
 
   // Upgrades XWA prices that are missing here and that YASB has under the same ID. Upgrades XWA
@@ -510,25 +564,45 @@ function main() {
   for (const upgrade of newUpgrades) {
     const file = data.fileForType[upgrade.sides[0].type] || fail(`${upgrade.xws}: no upgrade file for ${upgrade.sides[0].type}`);
     data.upgradeFiles.get(file).push(upgrade);
-    changed.add(file);
+    add(file, data.upgradeFiles.get(file), upgrade);
   }
 
   // New ship files go in the manifest, after the faction's existing ships.
+  const newFiles = new Set(data.newShipFiles.map(s => s.file));
+  const optionsFor = file => prettier.resolveConfig.sync(path.join(DATA_ROOT, file));
+  const manifestFile = "data/manifest.json";
+  let manifestText = fs.readFileSync(path.join(DATA_ROOT, manifestFile), "utf8");
   for (const { faction, file } of data.newShipFiles) {
     data.manifest.pilots.find(p => p.faction === faction).ships.push(file);
+    const at = manifestText.indexOf(`"faction": "${faction}"`);
+    if (at === -1) fail(`no ${faction} entry in the manifest`);
+    manifestText = appendToArray(manifestText, arrayAt(manifestText, "ships", at), [file], optionsFor(manifestFile));
   }
-  const contents = new Map([...changed].map(file => [
-    file,
-    file.includes("/upgrades/") ? data.upgradeFiles.get(file) : data.shipFiles.find(s => s.file === file).json
-  ]));
-  if (data.newShipFiles.length) contents.set("data/manifest.json", data.manifest);
 
-  const files = [...contents.keys()].sort();
-  for (const file of dryRun ? [] : files) {
-    const out = path.join(DATA_ROOT, file);
-    const json = JSON.stringify(contents.get(file), null, 2);
-    fs.writeFileSync(out, prettier.format(json, { ...prettier.resolveConfig.sync(out), parser: "json" }));
+  // Existing files keep their text and get the new entries appended, so nothing already there is
+  // reformatted; new files are formatted whole. Each must parse to exactly what was intended.
+  const outputs = new Map();
+  for (const [file, json] of intended) {
+    if (newFiles.has(file)) {
+      outputs.set(file, prettier.format(JSON.stringify(json), { ...optionsFor(file), parser: "json" }));
+      continue;
+    }
+    const text = fs.readFileSync(path.join(DATA_ROOT, file), "utf8");
+    const open = file.includes("/upgrades/") ? text.indexOf("[") : arrayAt(text, "pilots");
+    outputs.set(file, appendToArray(text, open, added.get(file), optionsFor(file)));
   }
+  if (newFiles.size) {
+    outputs.set(manifestFile, manifestText);
+    intended.set(manifestFile, data.manifest);
+  }
+
+  const files = [...outputs.keys()].sort();
+  for (const file of files) {
+    if (JSON.stringify(JSON.parse(outputs.get(file))) !== JSON.stringify(intended.get(file))) {
+      fail(`${file}: the JSON to write differs from what was intended`);
+    }
+  }
+  for (const file of dryRun ? [] : files) fs.writeFileSync(path.join(DATA_ROOT, file), outputs.get(file));
 
   const list = (title, items) => items.length && console.log(`\n${title} (${items.length}):\n  ${items.join("\n  ")}`);
   console.log(`XWA points ${points.label}: ${dryRun ? "would add" : "added"} ${newPilots.length} pilots and ${newUpgrades.length} upgrades ` +

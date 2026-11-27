@@ -24,37 +24,15 @@
   "dialCodes": ["T70"],
   "faction": "resistance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_X-wing-T70.png",
   "pilots": [
@@ -73,10 +51,7 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/poedameron.png",
       "cost": 7,
       "loadout": 25,
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Astromech",
@@ -105,10 +80,7 @@
       },
       "cost": 6,
       "loadout": 19,
-      "charges": {
-        "value": 2,
-        "recovers": 1
-      },
+      "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
         "Talent",
@@ -347,10 +319,7 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jessikapava.png",
       "cost": 4,
       "loadout": 6,
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "standard": true,
       "extended": true,
@@ -528,26 +497,14 @@
         {
           "difficulty": "White",
           "type": "Focus",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-          }
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
         },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
         {
           "difficulty": "White",
           "type": "Boost",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Focus"
-          }
+          "linked": { "difficulty": "Red", "type": "Focus" }
         }
       ],
       "standardLoadout": [
@@ -576,26 +533,14 @@
         {
           "difficulty": "White",
           "type": "Focus",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-          }
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
         },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
         {
           "difficulty": "White",
           "type": "Boost",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Focus"
-          }
+          "linked": { "difficulty": "Red", "type": "Focus" }
         }
       ],
       "standardLoadout": [
@@ -618,35 +563,17 @@
         "name": "Adaptive S-Foils",
         "text": "After you perform a [Barrel Roll] action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your [Bullseye Arc], you may remove 1 deplete token."
       },
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "shipActions": [
         {
           "difficulty": "White",
           "type": "Focus",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-          }
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
         },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
-        {
-          "difficulty": "White",
-          "type": "Boost"
-        },
-        {
-          "difficulty": "White",
-          "type": "SLAM"
-        }
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "SLAM" }
       ],
       "standardLoadout": [
         "heroic",
@@ -691,26 +618,14 @@
         {
           "difficulty": "White",
           "type": "Focus",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-          }
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
         },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
         {
           "difficulty": "White",
           "type": "Boost",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Focus"
-          }
+          "linked": { "difficulty": "Red", "type": "Focus" }
         }
       ],
       "standardLoadout": [
