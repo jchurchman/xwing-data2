@@ -24,21 +24,43 @@
   "dialCodes": ["Fng"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Boost"
     }
   ],
@@ -209,6 +231,33 @@
       "extended": true,
       "keywords": ["Mandalorian"],
       "epic": true
+    },
+    {
+      "name": "Fenn Rau",
+      "caption": "Armed and Dangerous",
+      "xws": "fennrau-armedanddangerous",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
+      "shipAbility": {
+        "name": "Concordia Faceoff",
+        "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
+      },
+      "shipStats": [
+        {
+          "type": "hull",
+          "value": 5
+        }
+      ],
+      "standardLoadout": [
+        "fearless",
+        "adaptablepowersystems-armedanddangerous",
+        "beskarreinforcedplating"
+      ],
+      "keywords": ["Mandalorian"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

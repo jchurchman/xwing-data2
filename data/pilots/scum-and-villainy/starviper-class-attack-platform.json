@@ -23,22 +23,47 @@
   "dialCodes": ["SV"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Boost"
     }
   ],
@@ -114,16 +139,28 @@
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/guri.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Calculate" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
           "type": "Barrel Roll"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Calculate" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
           "type": "Boost"
         }
       ],
@@ -157,6 +194,59 @@
       "standard": false,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Thweek",
+      "caption": "Versatile Spy",
+      "xws": "thweek-legendsandrelics",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "During the System Phase, you may gain 1 tractor token. At the start of the Engagement Phase, you may gain 1 deplete token to remove 1 tractor token.",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      },
+      "slots": [
+        "Illicit",
+        "Modification",
+        "Sensor",
+        "Torpedo",
+        "Tech",
+        "Talent"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Prince Xizor",
+      "caption": "Armed and Dangerous",
+      "xws": "princexizor-armedanddangerous",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "When you perform an attack against a strained ship, you may remove 1 stress token.",
+      "shipAbility": {
+        "name": "Adaptative Microthrusters",
+        "text": "While you perform a barrel roll, you may spend 1 [Charge] to use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      },
+      "charges": {
+        "value": 3,
+        "recovers": 0
+      },
+      "shipStats": [
+        {
+          "type": "shields",
+          "value": 2
+        }
+      ],
+      "standardLoadout": [
+        "crimelord-armedanddangerous",
+        "mandalorianoptics",
+        "virago-armedanddangerous"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

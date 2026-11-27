@@ -24,16 +24,41 @@
   "dialCodes": ["CY"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 8 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 8
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Boost" },
-    { "difficulty": "White", "type": "Rotate Arc" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_CustomizedYT-1300.png",
   "pilots": [
@@ -90,10 +115,22 @@
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://infinitearenas.com/xw2/images/pilots/l337.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" },
-        { "difficulty": "White", "type": "Rotate Arc" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
       ],
       "slots": [
         "Missile",
@@ -135,6 +172,60 @@
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
       "epic": true
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Armed and Dangerous",
+      "xws": "hansolo-armedanddangerous",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
+      "shipAbility": {
+        "name": "Coaxium Injectors",
+        "text": "After you fully execute a speed 3 or 4 maneuver, you may spend 1 [Charge] to perform a red [SLAM] action, even while stressed. After you perform a [SLAM] action, you suffer 1 [Critical Hit] unless you expose 1 of your damage cards."
+      },
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        }
+      ],
+      "shipStats": [
+        {
+          "type": "shields",
+          "value": 5
+        }
+      ],
+      "standardLoadout": [
+        "chewbacca-armedanddangerous",
+        "l337-armedanddangerous",
+        "tobiasbeckett-armedanddangerous",
+        "landosmillenniumfalcon-armedanddangerous"
+      ],
+      "keywords": ["Freighter", "YT-1300"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

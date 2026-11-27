@@ -24,17 +24,46 @@
   "dialCodes": ["FPC"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FIrespray.png",
   "pilots": [
@@ -207,6 +236,42 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Boba Fett",
+      "caption": "Armed and Dangerous",
+      "xws": "bobafett-armedanddangerous",
+      "initiative": 5,
+      "limited": 1,
+      "ability": "After another friendly ship defends, if you have a lock on the attacker, you may perform a bonus attack against the attacker.",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Lock"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "homingbeacon-armedanddangerous",
+        "fennecshand-armedanddangerous",
+        "seismiccharges",
+        "slavei-swz82"
+      ],
+      "keywords": ["Bounty Hunter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

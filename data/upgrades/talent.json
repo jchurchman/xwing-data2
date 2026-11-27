@@ -13,8 +13,16 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/composure.png"
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "action": { "type": "Focus" } }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Focus"
+        }
+      }
+    ],
     "standard": false,
     "extended": true,
     "epic": true
@@ -29,12 +37,17 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/crackshot.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/crackshot.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -53,10 +66,19 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/daredevil.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "restrictions": [
-      { "sizes": ["Small"] },
-      { "action": { "type": "Boost", "difficulty": "White" } }
+      {
+        "sizes": ["Small"]
+      },
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "White"
+        }
+      }
     ],
     "standard": true,
     "extended": true,
@@ -72,19 +94,33 @@
         "type": "Talent",
         "ability": "While you perform a red [Evade] action, if there is an obstacle at range 0-1, treat the action as white instead.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Evade", "difficulty": "Red" }],
+        "actions": [
+          {
+            "type": "Evade",
+            "difficulty": "Red"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" }
+            "value": {
+              "type": "Evade",
+              "difficulty": "Red"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/debrisgambit.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/debrisgambit.png"
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -99,13 +135,22 @@
         "type": "Talent",
         "ability": "While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/elusive.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/elusive.png"
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -120,20 +165,35 @@
         "type": "Talent",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Barrel Roll",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" }
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/experthandling.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/experthandling.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "restrictions": [
-      { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
+      {
+        "action": {
+          "type": "Barrel Roll",
+          "difficulty": "Red"
+        }
+      }
     ],
     "standard": true,
     "extended": true,
@@ -153,8 +213,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/fanatical.png"
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["firstorder"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["firstorder"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -173,8 +239,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/fearless.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["scumandvillainy"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["scumandvillainy"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -193,8 +265,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/heroic.png"
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["resistance"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["resistance"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -213,7 +291,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/intimidation.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": false,
     "extended": true,
     "epic": true
@@ -232,8 +312,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/juke.png"
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -248,12 +334,17 @@
         "type": "Talent",
         "ability": "While you defend or perform an attack, if there are no other friendly ships at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 1 },
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/lonewolf.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/lonewolf.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -272,7 +363,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/marksmanship.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -291,7 +384,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/outmaneuver.png"
       }
     ],
-    "cost": { "value": 12 },
+    "cost": {
+      "value": 12
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -310,7 +405,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/predator.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -329,8 +426,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ruthless.png"
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["galacticempire"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["galacticempire"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -349,8 +452,16 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/saturationsalvo.png"
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "action": { "type": "Reload" } }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Reload"
+        }
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -369,8 +480,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/selfless.png"
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["rebelalliance"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["rebelalliance"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -385,18 +502,28 @@
         "type": "Talent",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Coordinate", "difficulty": "Red" }],
+        "actions": [
+          {
+            "type": "Coordinate",
+            "difficulty": "Red"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Red" }
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/squadleader.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/squadleader.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 6
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -415,7 +542,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/swarmtactics.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -434,7 +563,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trickshot.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -449,13 +580,22 @@
         "type": "Talent",
         "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/treacherous.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/treacherous.png"
       }
     ],
-    "restrictions": [{ "factions": ["separatistalliance"] }],
-    "cost": { "value": 3 },
+    "restrictions": [
+      {
+        "factions": ["separatistalliance"]
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -475,10 +615,16 @@
       }
     ],
     "restrictions": [
-      { "factions": ["galacticrepublic"] },
-      { "keywords": ["Clone"] }
+      {
+        "factions": ["galacticrepublic"]
+      },
+      {
+        "keywords": ["Clone"]
+      }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -497,8 +643,14 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/ensnare.png"
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [{ "ships": ["nantexclassstarfighter"] }],
+    "cost": {
+      "value": 10
+    },
+    "restrictions": [
+      {
+        "ships": ["nantexclassstarfighter"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -507,7 +659,9 @@
     "name": "Snap Shot",
     "limited": 0,
     "xws": "snapshot",
-    "cost": { "value": 9 },
+    "cost": {
+      "value": 9
+    },
     "sides": [
       {
         "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack: Your dice cannot be modified.",
@@ -542,7 +696,9 @@
     ],
     "name": "Gravitic Deflection",
     "limited": 0,
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "xws": "graviticdeflection",
     "standard": true,
     "extended": true,
@@ -570,7 +726,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/proudtradition-sideb.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -587,7 +745,9 @@
       }
     ],
     "name": "Deadeye Shot",
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "limited": 0,
     "xws": "deadeyeshot",
     "standard": true,
@@ -608,7 +768,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/backwardstailslide.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -627,8 +789,14 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/ionlimiteroverride.png"
       }
     ],
-    "restrictions": [{ "keywords": ["TIE"] }],
-    "cost": { "value": 2 },
+    "restrictions": [
+      {
+        "keywords": ["TIE"]
+      }
+    ],
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -647,7 +815,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/margsablclosure.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -666,7 +836,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/starbirdslash.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -685,7 +857,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/cutthroat.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -704,7 +878,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/disciplined.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -723,7 +899,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/hopeful.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -742,8 +920,14 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/interloperturn.png"
       }
     ],
-    "restrictions": [{ "ships": ["tieddefender"] }],
-    "cost": { "value": 1 },
+    "restrictions": [
+      {
+        "ships": ["tieddefender"]
+      }
+    ],
+    "cost": {
+      "value": 1
+    },
     "standard": false,
     "extended": true,
     "epic": true
@@ -762,7 +946,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/tierfonbellyrun.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -781,10 +967,18 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/feedbackping.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "restrictions": [
-      { "action": { "type": "Reload" } },
-      { "keywords": ["TIE"] }
+      {
+        "action": {
+          "type": "Reload"
+        }
+      },
+      {
+        "keywords": ["TIE"]
+      }
     ],
     "standard": true,
     "extended": true,
@@ -799,14 +993,23 @@
         "title": "Clan Training",
         "type": "Talent",
         "ability": "Before you engage, if you are not focused and there is an enemy ship in your [Front Arc] at range 1, you may spend 1 [Charge] to perform a red [Focus] action. After you perform an attack, if the defender is destroyed, recover 1 [Charge].",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "slots": ["Talent"],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/clantraining.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/clantraining.png"
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "keywords": ["Mandalorian"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "keywords": ["Mandalorian"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -820,14 +1023,23 @@
         "title": "Notorious",
         "type": "Talent",
         "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, the attacker gains 1 strain token. While you perform an attack, if the defender is strained, you may reroll 1 blank result.",
-        "charges": { "value": 2, "recovers": 1 },
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        },
         "slots": ["Talent"],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/notorious.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/notorious.png"
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "equipped": ["Illicit"] }],
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "equipped": ["Illicit"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -846,7 +1058,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/enduring.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -1080,7 +1294,10 @@
       {
         "title": "Ace in the Hole",
         "type": "Talent",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 jam token to perform a [Barrel Roll] action.",
         "slots": ["Talent"]
       }
@@ -1190,6 +1407,187 @@
     "standard": true,
     "extended": true,
     "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Parting Gift",
+    "limited": 0,
+    "xws": "partinggift-legendsandrelics",
+    "sides": [
+      {
+        "title": "Parting Gift",
+        "type": "Talent",
+        "ability": "When you are destroyed, before you are removed, you may spend 1 [Charge] on an equipped [Device] upgrade to drop or launch a bomb using a speed 1 straight or bank [[Bank Left], [Straight], [Bank Right]] template.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Fanatical",
+    "limited": 0,
+    "xws": "fanatical-epicsl",
+    "sides": [
+      {
+        "title": "Fanatical",
+        "type": "Talent",
+        "ability": "While you perform an attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Persistent Tracker",
+    "limited": 0,
+    "xws": "persistenttracker-armedanddangerous",
+    "sides": [
+      {
+        "title": "Persistent Tracker",
+        "type": "Talent",
+        "ability": "During the System Phase, you may spend 3 [Charge]. During the Activation Phase, if this upgrade has 0 active [Charge], you can perform actions and execute red maneuvers, even while stressed.",
+        "slots": ["Talent"],
+        "charges": {
+          "value": 3,
+          "recovers": 1
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Mandalorian Tactics",
+    "limited": 0,
+    "xws": "mandaloriantactics-armedanddangerous",
+    "sides": [
+      {
+        "title": "Mandalorian Tactics",
+        "type": "Talent",
+        "ability": "While defending, if there is at least 1 enemy ship at range 0, you may reroll 1 of your blank results.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Crime Lord",
+    "limited": 1,
+    "xws": "crimelord-armedanddangerous",
+    "sides": [
+      {
+        "title": "Crime Lord",
+        "type": "Talent",
+        "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge]. If you do, the attacker gains 1 strain token.",
+        "slots": ["Talent"],
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Escort Fighter",
+    "limited": 0,
+    "xws": "escortfighter-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Escort Fighter",
+        "type": "Talent",
+        "ability": "While a friendly non-small ship defends, if you are in the attacker's firing arc, you may spend 1 [Charge] and gain 1 strain token to add 1 [Focus] result to the roll.",
+        "slots": ["Talent"],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "For The Cause",
+    "limited": 0,
+    "xws": "forthecause-evacuationofdqar",
+    "sides": [
+      {
+        "title": "For The Cause",
+        "type": "Talent",
+        "ability": "While you defend or perform an attack, you may spend 1 non-blank result to choose a friendly strained or depleted ship at range 1-2. That ship may remove 1 strain or deplete token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Push The Limit",
+    "limited": 0,
+    "xws": "pushthelimit-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Push The Limit",
+        "type": "Talent",
+        "ability": "After you fully execute a red maneuver or perform a red action, if you are not strained, you may gain 1 strain token to remove 1 stress token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Determination",
+    "limited": 0,
+    "xws": "determination-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Determination",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may suffer 1 [Hit] to add 1 [Focus] result.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Born for This",
+    "limited": 0,
+    "xws": "bornforthis-epicsl",
+    "sides": [
+      {
+        "title": "Born for This",
+        "type": "Talent",
+        "ability": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
     "standardLoadoutOnly": true
   }
 ]

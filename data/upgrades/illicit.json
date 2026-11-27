@@ -10,12 +10,21 @@
         "ability": "Action: Spend 1 [Charge] to perform a [Cloak] action. At the start of the Planning Phase, roll 1 attack die. On a [Focus] result, decloak or discard your cloak token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/cloakingdevice.png",
         "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/cloakingdevice.png"
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -31,11 +40,16 @@
         "ability": "Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed. This card's [Charge] cannot be recovered.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/contrabandcybernetics.png",
         "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/contrabandcybernetics.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -54,7 +68,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/deadmansswitch.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -73,7 +89,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/feedbackarray.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -92,7 +110,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/inertialdampeners.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "standard": false,
     "extended": true,
     "epic": true
@@ -108,7 +128,10 @@
         "ability": "Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/riggedcargochute.png",
         "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "device": {
           "name": "Loose Cargo",
           "type": "Obstacle",
@@ -117,8 +140,14 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/riggedcargochute.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "sizes": ["Medium", "Large"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -137,7 +166,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/coaxiumhyperfuel.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -155,12 +186,17 @@
         "title": "Quick-Release Locks",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/quickreleaselocks.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/quickreleaselocks.png"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Saboteur's Map",
@@ -179,7 +215,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/saboteursmap.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Scanner Baffler",
@@ -198,7 +236,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/scannerbaffler.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": {
+      "value": 8
+    }
   },
   {
     "name": "False Transponder Codes",
@@ -210,12 +250,17 @@
         "title": "False Transponder Codes",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/falsetranspondercodes.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/falsetranspondercodes.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -230,13 +275,22 @@
         "title": "Babu Frik",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/babufrik.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/babufrik.png"
       }
     ],
-    "restrictions": [{ "factions": ["scumandvillainy", "resistance"] }],
-    "cost": { "value": 5 },
+    "restrictions": [
+      {
+        "factions": ["scumandvillainy", "resistance"]
+      }
+    ],
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -251,12 +305,17 @@
         "title": "Overtuned Modulators",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overtunedmodulators.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/overtunedmodulators.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -276,8 +335,14 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png"
       }
     ],
-    "restrictions": [{ "keywords": ["Bounty Hunter"] }],
-    "cost": { "value": 3 },
+    "restrictions": [
+      {
+        "keywords": ["Bounty Hunter"]
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -292,7 +357,10 @@
         "title": "Hotshot Tail Blaster",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Rear Arc",
           "value": 2,
@@ -304,8 +372,14 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png"
       }
     ],
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "cost": { "value": 2 },
+    "restrictions": [
+      {
+        "sizes": ["Medium", "Large"]
+      }
+    ],
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
     "epic": true
@@ -317,7 +391,10 @@
     "sides": [
       {
         "title": "Feedback Emitter",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "type": "Illicit",
         "ability": "After an object acquires a lock on you, you may spend 1 [Charge] to jam that object, ignoring range restrictions. This upgrade's [Charge] cannot be recovered.",
         "slots": ["Illicit"]
@@ -326,6 +403,27 @@
     "standard": true,
     "extended": true,
     "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Kineso-Switch",
+    "limited": 0,
+    "xws": "kinesoswitch-armedanddangerous",
+    "sides": [
+      {
+        "title": "Kineso-Switch",
+        "type": "Illicit",
+        "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may spend 1 [Charge] to break all locks assigned to you.",
+        "slots": ["Illicit"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
     "standardLoadoutOnly": true
   }
 ]

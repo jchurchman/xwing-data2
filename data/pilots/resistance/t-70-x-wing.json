@@ -24,15 +24,37 @@
   "dialCodes": ["T70"],
   "faction": "resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_X-wing-T70.png",
   "pilots": [
@@ -51,7 +73,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/poedameron.png",
       "cost": 7,
       "loadout": 25,
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": [
         "Talent",
         "Astromech",
@@ -80,7 +105,10 @@
       },
       "cost": 6,
       "loadout": 19,
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "slots": [
         "Talent",
         "Talent",
@@ -319,7 +347,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jessikapava.png",
       "cost": 4,
       "loadout": 6,
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "standard": true,
       "extended": true,
@@ -481,6 +512,216 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zayversio.png",
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "C’ai Threnalli",
+      "caption": "Evacuation of D'Qar",
+      "xws": "caithrenalli-evacuationofdqar",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.",
+      "shipAbility": {
+        "name": "Adaptive S-Foils",
+        "text": "After you perform a [Barrel Roll] action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your [Bullseye Arc], you may remove 1 deplete token."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "forthecause-evacuationofdqar",
+        "heroic",
+        "bbastromech",
+        "repulsorliftengines-evacuationofdqar"
+      ],
+      "keywords": ["X-wing"],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Jaycris Tubbs",
+      "caption": "Evacuation of D'Qar",
+      "xws": "jaycristubbs-evacuationofdqar",
+      "initiative": 1,
+      "limited": 1,
+      "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
+      "shipAbility": {
+        "name": "Adaptive S-Foils",
+        "text": "After you perform a [Barrel Roll] action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your [Bullseye Arc], you may remove 1 deplete token."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "forthecause-evacuationofdqar",
+        "r0astromech-evacuationofdqar"
+      ],
+      "keywords": ["X-wing"],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Poe Dameron",
+      "caption": "Evacuation of D'Qar",
+      "xws": "poedameron-evacuationofdqar",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "After you perform an action, you may spend 1[Charge] to perform a white action, treating it as red.",
+      "shipAbility": {
+        "name": "Adaptive S-Foils",
+        "text": "After you perform a [Barrel Roll] action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your [Bullseye Arc], you may remove 1 deplete token."
+      },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        },
+        {
+          "difficulty": "White",
+          "type": "SLAM"
+        }
+      ],
+      "standardLoadout": [
+        "heroic",
+        "bb8-evacuationofdqar",
+        "primedoverdrivethrusters-evacuationofdqar",
+        "blackone-evacuationofdqar"
+      ],
+      "keywords": ["X-wing"],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Kazuda Xiono",
+      "caption": "Resistance Spy",
+      "xws": "kazudaxiono-legendsandrelics",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "While you defend or perform an attack, if the enemy ship has more damage cards than you have, you may change 1 [Focus] result to an [Evade] or [Hit] result.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "keywords": ["X-wing"],
+      "slots": ["Astromech", "Modification", "Tech", "Configuration", "Talent"],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Stomeroni Starck",
+      "caption": "Evacuation of D'Qar",
+      "xws": "stomeronistarck-evacuationofdqar",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "Setup: Instead of a T-70 X-wing dial, this ship uses an RZ-2 A-wing dial.",
+      "shipAbility": {
+        "name": "Adaptive S-Foils",
+        "text": "After you perform a [Barrel Roll] action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your [Bullseye Arc], you may remove 1 deplete token."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "forthecause-evacuationofdqar",
+        "acceleratedsensorarray-evacuationofdqar",
+        "r5x3"
+      ],
+      "keywords": ["X-wing"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

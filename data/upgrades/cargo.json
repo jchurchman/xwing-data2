@@ -16,7 +16,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/upgrades/adaptiveshields.png"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Boosted Scanners",
@@ -35,7 +37,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/upgrades/boostedscanners.png"
       }
     ],
-    "cost": { "value": 7 }
+    "cost": {
+      "value": 7
+    }
   },
   {
     "name": "Optimized Power Core",
@@ -54,7 +58,9 @@
         "artwork": "https://infinitearenas.com/xw2/images/upgrades/optimizedpowercore.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Tibanna Reserves",
@@ -69,11 +75,54 @@
         "title": "Tibanna Reserves",
         "type": "Cargo",
         "slots": ["Cargo"],
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/artwork/upgrades/tibannareserves.png",
         "artwork": "https://infinitearenas.com/xw2/images/upgrades/tibannareserves.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
+  },
+  {
+    "name": "Illegal Countermeasures",
+    "limited": 0,
+    "xws": "illegalcountermeasures-epicsl",
+    "sides": [
+      {
+        "title": "Illegal Countermeasures",
+        "type": "Cargo",
+        "ability": "While you or a ship you are locking at range 0-3 defends or performs an attack, you may spend 1 [Energy] to prevent range bonuses from being applied..",
+        "slots": ["Cargo"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Endless Hordes",
+    "limited": 0,
+    "xws": "endlesshordes-epicsl",
+    "sides": [
+      {
+        "title": "Endless Hordes",
+        "type": "Cargo",
+        "ability": "Before a friendly ship with the Contingency Protocol upgrade or a friendly Trade Federation Drone at range 0-3 would be removed from play, you may spend 1 [Charge] to restore that ship, remove and Command upgrade from it, and dock it.",
+        "slots": ["Cargo"],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

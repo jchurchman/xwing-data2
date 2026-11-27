@@ -24,15 +24,37 @@
   "dialCodes": ["G1A"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_MistHunter.png",
   "pilots": [
@@ -48,9 +70,18 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/4lom.png",
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Jam" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/4lom.png",
       "standard": false,
@@ -90,6 +121,60 @@
       "extended": true,
       "keywords": ["Bounty Hunter"],
       "epic": true
+    },
+    {
+      "name": "Zuckuss",
+      "caption": "Armed and Dangerous",
+      "xws": "zuckuss-armedanddangerous",
+      "initiative": 3,
+      "limited": 1,
+      "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
+      "shipAbility": {
+        "name": "Enduring Limitations",
+        "text": "At the end of the Activation Phase, if you have 3 or more stress tokens, you must remove 1 stress token and suffer 1 [Hit] damage."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          }
+        }
+      ],
+      "shipStats": [
+        {
+          "type": "shields",
+          "value": 5
+        }
+      ],
+      "standardLoadout": [
+        "persistenttracker-armedanddangerous",
+        "tractorbeam",
+        "4lom-armedanddangerous",
+        "misthunter-armedanddangerous"
+      ],
+      "keywords": ["Bounty Hunter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

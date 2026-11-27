@@ -22,15 +22,37 @@
   "dialCodes": ["YV6"],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Full Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png",
   "pilots": [
@@ -98,7 +120,10 @@
       "xws": "moraloeval",
       "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
       "image": "https://infinitearenas.com/xw2/images/pilots/moraloeval.png",
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "slots": [
         "Talent",
         "Cannon",
@@ -142,7 +167,10 @@
       "ability": "Before you engage, you may spend 1 green token and 1 [Charge]. If you do, you may choose another ship at range 0-1 that is not stressed. The chosen ship gains 1 stress token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/doctoraphra.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doctoraphra.png",
-      "charges": { "value": 3, "recovers": 0 },
+      "charges": {
+        "value": 3,
+        "recovers": 0
+      },
       "slots": [
         "Cannon",
         "Missile",
@@ -159,6 +187,27 @@
       "extended": true,
       "keywords": ["Freighter"],
       "epic": true
+    },
+    {
+      "name": "Bossk",
+      "caption": "Armed and Dangerous",
+      "xws": "bossk-armedanddangerous",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "While you perform an attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
+      "shipAbility": {
+        "name": "Imposing Behemoth",
+        "text": "While an enemy ship at range 0 defends, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, that enemy ship rolls 1 fewer defense die."
+      },
+      "standardLoadout": [
+        "embo-armedanddangerous",
+        "contrabandcybernetics",
+        "houndstooth-armedanddangerous"
+      ],
+      "keywords": ["Bounty Hunter", "Freighter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }
