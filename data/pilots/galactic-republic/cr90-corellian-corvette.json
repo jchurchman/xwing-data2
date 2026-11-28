@@ -66,6 +66,40 @@
         "Team",
         "Cargo"
       ]
+    },
+    {
+      "name": "Raymus Antilles",
+      "caption": "Tantive IV",
+      "xws": "raymusantilles-epicsl-galacticrepublic",
+      "initiative": 8,
+      "limited": 1,
+      "engagement": 0,
+      "shipAbility": {
+        "name": "Broadside Batteries",
+        "text": "You can acquire locks and perform primary attacks at range 1-4."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": { "difficulty": "Red", "type": "Focus" }
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "standardLoadout": [
+        "bornforthis-epicsl",
+        "bailorgana-epicsl",
+        "secretprovisions-epicsl",
+        "turbolaserbattery",
+        "tantiveiv-epicsl-galacticrepublic"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

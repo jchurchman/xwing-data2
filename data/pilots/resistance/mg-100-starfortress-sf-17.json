@@ -213,6 +213,67 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/paigetico.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/paigetico.png",
       "epic": true
+    },
+    {
+      "name": "Finch Dallow",
+      "caption": "Evacuation of D'Qar",
+      "xws": "finchdallow-evacuationofdqar",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "If you would drop a device using a [Straight] template and you are not stressed, you may gain 1 stress token to use a [[Bank Left] or [Bank Right]] template of the same speed instead.",
+      "shipAbility": {
+        "name": "Modular Bombing Magazine",
+        "text": "When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your [Left Arc] or [Right Arc]."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Rotate Arc" },
+        {
+          "difficulty": "White",
+          "type": "Reload",
+          "linked": { "difficulty": "Red", "type": "Reinforce" }
+        }
+      ],
+      "standardLoadout": [
+        "nixjerd-evacuationofdqar",
+        "paigetico-evacuationofdqar",
+        "protonbombs",
+        "thermaldetonators"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    },
+    {
+      "name": "Vennie",
+      "caption": "Evacuation of D'Qar",
+      "xws": "vennie-evacuationofdqar",
+      "initiative": 2,
+      "limited": 1,
+      "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may change 1 [Focus] result to an [Evade] result.",
+      "shipAbility": {
+        "name": "Modular Bombing Magazine",
+        "text": "When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your [Left Arc] or [Right Arc]."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc",
+          "linked": { "difficulty": "Red", "type": "Focus" }
+        },
+        { "difficulty": "White", "type": "Reload" }
+      ],
+      "standardLoadout": [
+        "perceptivecopilot",
+        "dedicatedgunners-evacuationofdqar",
+        "protonbombs"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

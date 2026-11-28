@@ -67,7 +67,9 @@ const MISC = [
   "Hit",
   "Shield",
   "Energy",
-  "Ordnance"
+  "Ordnance",
+  // XWA's Epic scenario icon, e.g. on Secret Provisions (Epic).
+  "Mission Point"
 ];
 
 const SIZES = ["Small", "Large", "Medium"];

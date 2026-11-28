@@ -207,6 +207,33 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Boba Fett",
+      "caption": "Armed and Dangerous",
+      "xws": "bobafett-armedanddangerous",
+      "initiative": 5,
+      "limited": 1,
+      "ability": "After another friendly ship defends, if you have a lock on the attacker, you may perform a bonus attack against the attacker.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": { "difficulty": "Red", "type": "Lock" }
+        }
+      ],
+      "standardLoadout": [
+        "homingbeacon-armedanddangerous",
+        "fennecshand-armedanddangerous",
+        "seismiccharges",
+        "slavei-swz82"
+      ],
+      "keywords": ["Bounty Hunter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

@@ -255,5 +255,52 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Precision-Tuned Cannons",
+    "limited": 0,
+    "xws": "precisiontunedcannons-legendsandrelics",
+    "sides": [
+      {
+        "title": "Precision-Tuned Cannons",
+        "type": "Cannon",
+        "ability": "Attack: If the defender is in your [Bullseye Arc], add 1 [Focus] result.",
+        "slots": ["Cannon"],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 2,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Flechette Cannons",
+    "limited": 0,
+    "xws": "flechettecannons-armedanddangerous",
+    "sides": [
+      {
+        "title": "Flechette Cannons",
+        "type": "Cannon",
+        "ability": "Attack: After this attack hits, if the defender is in your [Bullseye Arc], the defender gains 1 strain token.",
+        "slots": ["Cannon"],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

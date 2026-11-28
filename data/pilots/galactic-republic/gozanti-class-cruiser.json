@@ -1,0 +1,69 @@
+{
+  "name": "Gozanti-class Cruiser",
+  "xws": "gozanticlasscruiser",
+  "faction": "galacticrepublic",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Gozanti.png",
+  "size": "Huge",
+  "dial": [
+    "0BR",
+    "0OR",
+    "0NR",
+    "1BW",
+    "1NW",
+    "1FB",
+    "2BR",
+    "2NR",
+    "2FB",
+    "3FB",
+    "4FR"
+  ],
+  "dialCodes": ["GOZ-I"],
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 11 },
+    { "type": "shields", "value": 5, "recovers": 1 },
+    { "type": "energy", "value": 3, "recovers": 1 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Coordinate" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Jam" }
+  ],
+  "pilots": [
+    {
+      "name": "Wez Synat",
+      "caption": "Spectre of Nayr",
+      "xws": "wezsynat-epicsl",
+      "initiative": 7,
+      "limited": 1,
+      "engagement": 1,
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": { "difficulty": "Red", "type": "Coordinate" }
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "standardLoadout": [
+        "clonecommandercody",
+        "pointdefensebattery-epicsl",
+        "spectreofnayr-epicsl"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
+    }
+  ]
+}

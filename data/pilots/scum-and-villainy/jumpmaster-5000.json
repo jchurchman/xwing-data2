@@ -161,6 +161,25 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/nomlumb.png",
       "keywords": ["Bounty Hunter"],
       "epic": true
+    },
+    {
+      "name": "Dengar",
+      "caption": "Armed and Dangerous",
+      "xws": "dengar-armedanddangerous",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "charges": { "value": 1, "recovers": 1 },
+      "standardLoadout": [
+        "r2g8-armedanddangerous",
+        "synchronizedhandling-armedanddangerous",
+        "starboardthrusters-armedanddangerous",
+        "punishingone"
+      ],
+      "keywords": ["Bounty Hunter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

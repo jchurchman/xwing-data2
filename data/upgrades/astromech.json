@@ -825,5 +825,158 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Modified R4-P Unit",
+    "limited": 0,
+    "xws": "modifiedr4punit-legendsandrelics",
+    "sides": [
+      {
+        "title": "Modified R4-P Unit",
+        "type": "Astromech",
+        "ability": "Before you execute a red maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
+        "slots": ["Astromech"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Flight-Assist Astromech",
+    "limited": 0,
+    "xws": "flightassistastromech-legendsandrelics",
+    "sides": [
+      {
+        "title": "Flight-Assist Astromech",
+        "type": "Astromech",
+        "ability": "While you perform a white [Barrel Roll] or white [Boost] action, you may spend 1 [Charge]. If you do, treat the action as red, and use a speed 2 template while performing the action.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "sizes": ["Small"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Unhinged Astromech",
+    "limited": 0,
+    "xws": "unhingedastromech-legendsandrelics",
+    "sides": [
+      {
+        "title": "Unhinged Astromech",
+        "type": "Astromech",
+        "ability": "Decrease the difficulty of your speed 3 basic maneuvers [[Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]].",
+        "slots": ["Astromech"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "R7-T1",
+    "limited": 1,
+    "xws": "r7t1-legendsandrelics",
+    "sides": [
+      {
+        "title": "R7-T1",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "difficulty": "White",
+              "type": "Lock",
+              "linked": { "difficulty": "Red", "type": "Boost" }
+            }
+          }
+        ]
+      }
+    ],
+    "restrictions": [
+      { "factions": ["rebelalliance", "resistance"] },
+      { "sizes": ["Small"] },
+      { "action": { "type": "Lock", "difficulty": "White" } }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "R2-G8",
+    "limited": 1,
+    "xws": "r2g8-armedanddangerous",
+    "sides": [
+      {
+        "title": "R2-G8",
+        "type": "Astromech",
+        "ability": "After you perform a primary attack that hits, you may spend 2 [Charge] to choose an enemy ship at range 0-1 of the defender. If you do, that ship gains a strain token.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Black Squadron R4",
+    "limited": 1,
+    "xws": "blacksquadronr4-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Black Squadron R4",
+        "type": "Astromech",
+        "ability": "After you fully execute a blue maneuver, you may spend 1[Charge] to remove all of your stress tokens.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R0 Astromech",
+    "limited": 0,
+    "xws": "r0astromech-evacuationofdqar",
+    "sides": [
+      {
+        "title": "R0 Astromech",
+        "type": "Astromech",
+        "ability": "After you reveal a basic maneuver, you may reduce its difficulty. If you do, after the Check Difficulty step, gain 1 strain token.",
+        "slots": ["Astromech"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "BB-8",
+    "limited": 1,
+    "xws": "bb8-evacuationofdqar",
+    "sides": [
+      {
+        "title": "BB-8",
+        "type": "Astromech",
+        "ability": "During the System Phase, you may spend 1[Charge] to perform a [Barrel Roll] or [Boost] action. Before you engage, you may spend 1[Charge] and gain a strain token. If you do, you may remove 1 disarm token.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

@@ -85,6 +85,28 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/niteowlliberator.png",
       "keywords": ["Mandalorian"],
       "caption": "Resolute Warrior"
+    },
+    {
+      "name": "Ursa Wren",
+      "caption": "Countess of Clan Wren",
+      "xws": "ursawren-legendsandrelics",
+      "initiative": 3,
+      "limited": 1,
+      "ability": "After you acquire a lock on an enemy ship, if there are no enemy ships at range 0-1 of you, you may gain 1 reinforce token.",
+      "keywords": ["Mandalorian"],
+      "slots": [
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Device",
+        "Configuration",
+        "Talent"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

@@ -190,6 +190,28 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/rush.png",
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Kylo Ren",
+      "caption": "Evacuation of D'Qar",
+      "xws": "kyloren-evacuationofdqar",
+      "initiative": 5,
+      "limited": 1,
+      "ability": "Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "standardLoadout": [
+        "determination-evacuationofdqar",
+        "malice",
+        "protontorpedoes"
+      ],
+      "keywords": ["Dark Side", "TIE"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

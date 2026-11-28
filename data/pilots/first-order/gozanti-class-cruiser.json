@@ -61,6 +61,38 @@
         "Cargo",
         "Cargo"
       ]
+    },
+    {
+      "name": "Cerra Fellian",
+      "caption": "Malefactor",
+      "xws": "cerrafellian-sl",
+      "initiative": 7,
+      "limited": 1,
+      "engagement": 1,
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": { "difficulty": "Red", "type": "Coordinate" }
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "standardLoadout": [
+        "pettyofficerthanisson-epicsl",
+        "ioncannonbattery",
+        "malefactor-epicsl"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

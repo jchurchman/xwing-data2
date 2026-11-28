@@ -695,5 +695,108 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Wedge Antilles",
+    "limited": 1,
+    "xws": "wedgeantilles-legendsandrelics",
+    "sides": [
+      {
+        "title": "Wedge Antilles",
+        "type": "Gunner",
+        "ability": "While you perform a [Single Turret Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "restrictions": [{ "factions": ["resistance"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Tobias Beckett",
+    "limited": 1,
+    "xws": "tobiasbeckett-armedanddangerous",
+    "sides": [
+      {
+        "title": "Tobias Beckett",
+        "type": "Gunner",
+        "ability": "While you perform an attack, if you are stressed, you may reroll up to 2 attack dice. Then suffer 1 [Critical Hit] damage if 1 or more of the rerolled results is a [Critical Hit] result.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Fennec Shand",
+    "limited": 1,
+    "xws": "fennecshand-armedanddangerous",
+    "sides": [
+      {
+        "title": "Fennec Shand",
+        "type": "Gunner",
+        "ability": "While you defend or perform an attack, if you have a lock on the enemy ship, the enemy ship rolls 1 fewer die.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Paige Tico",
+    "limited": 1,
+    "xws": "paigetico-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Paige Tico",
+        "type": "Gunner",
+        "ability": "While you have exactly 1 disarm token, you can still perform [Single Turret Arc] attacks. After you perform an attack, you may drop a bomb or rotate your [Single Turret Arc] indicator.",
+        "slots": ["Gunner"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Dedicated Gunners",
+    "limited": 0,
+    "xws": "dedicatedgunners-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Dedicated Gunners",
+        "type": "Gunner",
+        "ability": "While you perform a primary attack, if the defender is in your [Single Turret Arc], you may spend 1 focus token to roll 1 additional attack die. After you perform a primary attack, you may perform a bonus [Single Turret Arc] attack using a [Single Turret Arc] you did not already attack from this round.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "First Order Ordnance Tech",
+    "limited": 0,
+    "xws": "firstorderordnancetech-evacuationofdqar",
+    "sides": [
+      {
+        "title": "First Order Ordnance Tech",
+        "type": "Gunner",
+        "ability": "After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform [Front Arc] primary attacks.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

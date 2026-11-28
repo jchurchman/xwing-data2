@@ -148,5 +148,39 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Blindspot Targeter",
+    "limited": 0,
+    "xws": "blindspottargeter-legendsandrelics",
+    "sides": [
+      {
+        "title": "Blindspot Targeter",
+        "type": "Sensor",
+        "ability": "While you perform a primary attack, if you are not in the defender's firing arc, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": ["Sensor"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Homing Beacon",
+    "limited": 0,
+    "xws": "homingbeacon-armedanddangerous",
+    "sides": [
+      {
+        "title": "Homing Beacon",
+        "type": "Sensor",
+        "ability": "While you perform a [Lock] action, you may spend 1 [Charge] to ignore range restrictions. After you fully execute an advanced maneuver, if there is an enemy ship at range 1-2 in your [Front Arc], you may spend 1 [Charge] to acquire a lock on that ship.",
+        "slots": ["Sensor"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

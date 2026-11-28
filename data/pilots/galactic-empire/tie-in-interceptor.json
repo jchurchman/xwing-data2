@@ -470,6 +470,24 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Carnor Jax",
+      "caption": "Royal Guard",
+      "xws": "carnorjax-legendsandrelics",
+      "initiative": 5,
+      "limited": 1,
+      "ability": "While an enemy ship at range 0-1 in your [Front Arc] defends or performs an attack, before the Roll Attack Dice step, you may spend 1 [Force]. If you do, that ship's dice cannot be modified.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "force": { "value": 1, "recovers": 1, "side": ["dark"] },
+      "keywords": ["Dark Side", "TIE"],
+      "slots": ["Force Power", "Modification", "Modification", "Configuration"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

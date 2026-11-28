@@ -744,5 +744,162 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Retrofitted Autothrusters",
+    "limited": 0,
+    "xws": "retrofittedautothrusters-legendsandrelics",
+    "sides": [
+      {
+        "title": "Retrofitted Autothrusters",
+        "type": "Modification",
+        "ability": "After you fully execute a speed 3 turn [[Turn Left] or [Turn Right]], bank [[Bank Left] or [Bank Right]], Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]], or Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action, even while stressed.",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "sizes": ["Small"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Automated Loaders",
+    "limited": 0,
+    "xws": "automatedloaders-legendsandrelics",
+    "sides": [
+      {
+        "title": "Automated Loaders",
+        "type": "Modification",
+        "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "action": { "type": "Reload" } }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Targeting Matrix",
+    "limited": 0,
+    "xws": "targetingmatrix-legendsandrelics",
+    "sides": [
+      {
+        "title": "Targeting Matrix",
+        "type": "Modification",
+        "ability": "While attacking, at the end of the Neutralize Results step, you may spend 1 [Focus] result. If you do, after the attack is resolved, the defender gains 1 strain token.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Adaptable Power Systems",
+    "limited": 0,
+    "xws": "adaptablepowersystems-armedanddangerous",
+    "sides": [
+      {
+        "title": "Adaptable Power Systems",
+        "type": "Modification",
+        "ability": "After you fully execute a red maneuver or perform a red action, you may spend 1 [Charge]. If you do, you may gain 1 deplete token to remove 1 stress token. Before you engage, you may spend 1 [Charge]. If you do, you may gain 1 strain token to remove 1 deplete token.",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Starboard Thrusters",
+    "limited": 0,
+    "xws": "starboardthrusters-armedanddangerous",
+    "sides": [
+      {
+        "title": "Starboard Thrusters",
+        "type": "Modification",
+        "ability": "After you reveal a turn [[Turn Left]] or Segnor's Loop [[Segnor's Loop Left]] maneuver, you may spend 1 [Charge]. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [[Segnor's Loop Left]], gain 1 strain token.",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Repulsorlift Engines",
+    "limited": 0,
+    "xws": "repulsorliftengines-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Repulsorlift Engines",
+        "type": "Modification",
+        "ability": "While you perform a [Barrel Roll] action, you may gain 1 strain token to use the [Bank Left] or [Bank Right] template instead of the [Straight] template.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Advanced Warning Systems",
+    "limited": 0,
+    "xws": "advancedwarningsystems-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Advanced Warning Systems",
+        "type": "Modification",
+        "ability": "After you are declared the defender of an attack, if a friendly ship at range 0-2 has a lock on the attacker, you may perform a red [Evade] action.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Targeting Matrix",
+    "limited": 0,
+    "xws": "targetingmatrix-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Targeting Matrix",
+        "type": "Modification",
+        "ability": "While attacking, you may spend 1 [Focus] result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Secret Provisions",
+    "limited": 0,
+    "xws": "secretprovisions-epicsl",
+    "sides": [
+      {
+        "title": "Secret Provisions",
+        "type": "Modification",
+        "ability": "During the End Phase, if you are at range 1-3 of the opponent's board edge, you may spend one [Charge] to gain 2 [Mission Point].",
+        "slots": ["Modification"],
+        "charges": { "value": 3, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

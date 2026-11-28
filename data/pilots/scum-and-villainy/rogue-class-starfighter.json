@@ -191,6 +191,47 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Cad Bane",
+      "caption": "Armed and Dangerous",
+      "xws": "cadbane-armedanddangerous",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "After you perform an attack that hits, you may spend 2 [Charge] to transfer 1 of your non-lock red or orange tokens to the defender.",
+      "shipAbility": {
+        "name": "Dead to Rights",
+        "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
+      },
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": { "difficulty": "Red", "type": "Boost" }
+        },
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" }
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Cloak" }
+      ],
+      "standardLoadout": [
+        "flechettecannons-armedanddangerous",
+        "todo360-armedanddangerous",
+        "xanadublood-armedanddangerous"
+      ],
+      "keywords": ["Bounty Hunter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

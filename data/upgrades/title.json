@@ -1387,5 +1387,296 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Blood Crow",
+    "limited": 1,
+    "xws": "bloodcrow-epicsl",
+    "sides": [
+      {
+        "title": "Blood Crow",
+        "type": "Title",
+        "ability": "While you defend or perform an attack, if the attack range is 1, you may spend 1 [Energy] to add a [Focus] result.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Corvus",
+    "limited": 1,
+    "xws": "corvus-epicsl",
+    "sides": [
+      {
+        "title": "Corvus",
+        "type": "Title",
+        "ability": "Setup: Place this ship as if it were a standard ship at initiative 5.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Lando's Millennium Falcon",
+    "limited": 1,
+    "xws": "landosmillenniumfalcon-armedanddangerous",
+    "sides": [
+      {
+        "title": "Lando's Millennium Falcon",
+        "type": "Title",
+        "ability": "While you perform a primary attack, if the defender has a non-lock red or orange token, roll 1 additional attack die.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Mist Hunter",
+    "limited": 1,
+    "xws": "misthunter-armedanddangerous",
+    "sides": [
+      {
+        "title": "Mist Hunter",
+        "type": "Title",
+        "ability": "After you perform a [Cannon] attack, you may gain 1 strain token to perform a bonus primary attack against the same target.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Xanadu Blood",
+    "limited": 1,
+    "xws": "xanadublood-armedanddangerous",
+    "sides": [
+      {
+        "title": "Xanadu Blood",
+        "type": "Title",
+        "ability": "After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, that ship gains 1 strain token.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Virago",
+    "limited": 1,
+    "xws": "virago-armedanddangerous",
+    "sides": [
+      {
+        "title": "Virago",
+        "type": "Title",
+        "ability": "During the System Phase you may perform a red [Barrel Roll] or red [Boost] action.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Nautolan's Revenge",
+    "limited": 1,
+    "xws": "nautolansrevenge-epicsl",
+    "sides": [
+      {
+        "title": "Nautolan's Revenge",
+        "type": "Title",
+        "ability": "After a tractored enemy ship in your [Rear Arc] suffers damage, you may spend 1 [Charge]. If you do, that ship suffers 1 additional [Hit] damage.",
+        "slots": ["Title"],
+        "charges": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Hound's Tooth",
+    "limited": 1,
+    "xws": "houndstooth-armedanddangerous",
+    "sides": [
+      {
+        "title": "Hound's Tooth",
+        "type": "Title",
+        "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Hit] result. If the defender is stressed, you may change 1 of your [Focus] results to a [Critical Hit] result instead.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv-epicsl",
+    "sides": [
+      {
+        "title": "Tantive IV",
+        "type": "Title",
+        "ability": "When a friendly ship at range 0-2 defends or performs an attack, if it has only blank results and has 2 or more results, you may suffer 1 [Hit] or spend 2 [Energy]. If you do, that ship may reroll all of its dice.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Hosnian Lament",
+    "limited": 1,
+    "xws": "hosnianlament-epicsl",
+    "sides": [
+      {
+        "title": "Hosnian Lament",
+        "type": "Title",
+        "ability": "While a friendly ship at range 0-2 is defending, if it suffers 2 or more damage during the attack, you may spend 1 [Energy] to assign a strain token to the attacker.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Black One",
+    "limited": 1,
+    "xws": "blackone-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Black One",
+        "type": "Title",
+        "ability": "After you perform a [SLAM] action, lose 1[Charge]. If this upgrade has 0 active [Charge], you cannot perform the [SLAM] action.",
+        "slots": ["Title"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Malefactor",
+    "limited": 1,
+    "xws": "malefactor-epicsl",
+    "sides": [
+      {
+        "title": "Malefactor",
+        "type": "Title",
+        "ability": "While you defend, friendly ships docked with you may suffer damage instead of you.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Precursor",
+    "limited": 1,
+    "xws": "precursor-epicsl",
+    "sides": [
+      {
+        "title": "Precursor",
+        "type": "Title",
+        "ability": "At the end of the Engagement Phase, you may spend 1 [Shield] to recover 1 [Energy], or spend 1 [Energy] to recover 1 [Shield].",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv-epicsl-galacticrepublic",
+    "sides": [
+      {
+        "title": "Tantive IV",
+        "type": "Title",
+        "ability": "While you defend, if you have no green tokens, you may change 1 result to an [Evade] result.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Spectre of Nayr",
+    "limited": 1,
+    "xws": "spectreofnayr-epicsl",
+    "sides": [
+      {
+        "title": "Spectre of Nayr",
+        "type": "Title",
+        "ability": "After you perform an attack, if you have not targetted the defender in a previous attack this round and you are focused, you may recover 1 [Energy]",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Alpha Revue",
+    "limited": 1,
+    "xws": "alpharevue-epicsl",
+    "sides": [
+      {
+        "title": "Alpha Revue",
+        "type": "Title",
+        "ability": "Before the Neutralize Results step, while a friendly Vulture-class Droid Fighter is at range 0-2 is attacking a defender in its [Bullseye Arc], it may suffer 1 [Hit] damage to cancel 1 [Evade] result.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Trident",
+    "limited": 1,
+    "xws": "trident-epicsl",
+    "sides": [
+      {
+        "title": "Trident",
+        "type": "Title",
+        "ability": "While you defend, if the attackerr does not have any green tokens, you may add 1 [Evade] result.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

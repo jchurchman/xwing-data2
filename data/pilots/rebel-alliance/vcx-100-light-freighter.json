@@ -184,6 +184,34 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/alexsandrkallus.png",
       "keywords": ["Freighter", "Spectre"],
       "epic": true
+    },
+    {
+      "name": "Hera Syndulla",
+      "caption": "New Republic General",
+      "xws": "herasyndulla-legendsandrelics",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "After you fully execute a red maneuver, you may coordinate a friendly ship at range 1-3.",
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
+      },
+      "keywords": ["Freighter", "Spectre"],
+      "slots": [
+        "Crew",
+        "Crew",
+        "Sensor",
+        "Gunner",
+        "Turret",
+        "Modification",
+        "Torpedo",
+        "Title",
+        "Talent",
+        "Talent"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

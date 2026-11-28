@@ -122,5 +122,22 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "TX-25",
+    "limited": 1,
+    "xws": "tx25-epicsl",
+    "sides": [
+      {
+        "title": "TX-25",
+        "type": "Tactical Relay",
+        "ability": "After a friendly ship at range 0-3 is destroyed, you may equip a Tactical Relay upgrade attached to that ship to this one.",
+        "slots": ["Tactical Relay"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

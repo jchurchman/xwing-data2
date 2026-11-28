@@ -1191,5 +1191,177 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Parting Gift",
+    "limited": 0,
+    "xws": "partinggift-legendsandrelics",
+    "sides": [
+      {
+        "title": "Parting Gift",
+        "type": "Talent",
+        "ability": "When you are destroyed, before you are removed, you may spend 1 [Charge] on an equipped [Device] upgrade to drop or launch a bomb using a speed 1 straight or bank [[Bank Left], [Straight], [Bank Right]] template.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Fanatical",
+    "limited": 0,
+    "xws": "fanatical-epicsl",
+    "sides": [
+      {
+        "title": "Fanatical",
+        "type": "Talent",
+        "ability": "While you perform an attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Persistent Tracker",
+    "limited": 0,
+    "xws": "persistenttracker-armedanddangerous",
+    "sides": [
+      {
+        "title": "Persistent Tracker",
+        "type": "Talent",
+        "ability": "During the System Phase, you may spend 3 [Charge]. During the Activation Phase, if this upgrade has 0 active [Charge], you can perform actions and execute red maneuvers, even while stressed.",
+        "slots": ["Talent"],
+        "charges": { "value": 3, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Mandalorian Tactics",
+    "limited": 0,
+    "xws": "mandaloriantactics-armedanddangerous",
+    "sides": [
+      {
+        "title": "Mandalorian Tactics",
+        "type": "Talent",
+        "ability": "While defending, if there is at least 1 enemy ship at range 0, you may reroll 1 of your blank results.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Crime Lord",
+    "limited": 1,
+    "xws": "crimelord-armedanddangerous",
+    "sides": [
+      {
+        "title": "Crime Lord",
+        "type": "Talent",
+        "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge]. If you do, the attacker gains 1 strain token.",
+        "slots": ["Talent"],
+        "charges": { "value": 2, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Escort Fighter",
+    "limited": 0,
+    "xws": "escortfighter-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Escort Fighter",
+        "type": "Talent",
+        "ability": "While a friendly non-small ship defends, if you are in the attacker's firing arc, you may spend 1 [Charge] and gain 1 strain token to add 1 [Focus] result to the roll.",
+        "slots": ["Talent"],
+        "charges": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "For The Cause",
+    "limited": 0,
+    "xws": "forthecause-evacuationofdqar",
+    "sides": [
+      {
+        "title": "For The Cause",
+        "type": "Talent",
+        "ability": "While you defend or perform an attack, you may spend 1 non-blank result to choose a friendly strained or depleted ship at range 1-2. That ship may remove 1 strain or deplete token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Push The Limit",
+    "limited": 0,
+    "xws": "pushthelimit-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Push The Limit",
+        "type": "Talent",
+        "ability": "After you fully execute a red maneuver or perform a red action, if you are not strained, you may gain 1 strain token to remove 1 stress token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Determination",
+    "limited": 0,
+    "xws": "determination-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Determination",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may suffer 1 [Hit] to add 1 [Focus] result.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Born for This",
+    "limited": 0,
+    "xws": "bornforthis-epicsl",
+    "sides": [
+      {
+        "title": "Born for This",
+        "type": "Talent",
+        "ability": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

@@ -66,6 +66,35 @@
         "Cargo",
         "Title"
       ]
+    },
+    {
+      "name": "Asajj Ventress",
+      "caption": "Trident",
+      "xws": "asajjventress-epicsl",
+      "initiative": 8,
+      "limited": 1,
+      "engagement": 1,
+      "shipAbility": {
+        "name": "Tractor Grasp",
+        "text": "After you perform a Tractor Tentacles attack that hits, the defender gains 1 tractor token."
+      },
+      "force": { "value": 1, "recovers": 1, "side": ["dark"] },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "Red", "type": "Evade" },
+        { "difficulty": "White", "type": "Reinforce" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
+      "standardLoadout": [
+        "aqseriesbattledroids-epicsl",
+        "tractortentacles",
+        "drillbeak-epicsl",
+        "trident-epicsl"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

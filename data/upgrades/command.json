@@ -608,5 +608,40 @@
     "restrictions": [
       { "ships": ["gauntletfighter"] }
     ]
+  },
+  {
+    "name": "Nien Nunb",
+    "limited": 1,
+    "xws": "niennunb-epicsl",
+    "sides": [
+      {
+        "title": "Nien Nunb",
+        "type": "Command",
+        "ability": "Bonus Attack: After performing a primary attack, you may spend 2 [Energy] and 1 [Charge] to perform a bonus primary attack against a different target.",
+        "slots": ["Command"],
+        "charges": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Urcos Furdam",
+    "limited": 1,
+    "xws": "urcosfurdam-epicsl",
+    "sides": [
+      {
+        "title": "Urcos Furdam",
+        "type": "Command",
+        "ability": "After you perform a blue maneuver, recover one energy.",
+        "slots": ["Command"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

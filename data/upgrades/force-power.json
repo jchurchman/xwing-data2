@@ -316,5 +316,22 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Roiling Anger",
+    "limited": 0,
+    "xws": "roilinganger-legendsandrelics",
+    "sides": [
+      {
+        "title": "Roiling Anger",
+        "type": "Force Power",
+        "ability": "At the start of the Engagement Phase, if you are in an enemy ship's [Front Arc], you may gain 1 strain token to recover 1 [Force].",
+        "slots": ["Force Power"]
+      }
+    ],
+    "restrictions": [{ "force_side": ["dark"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
   }
 ]

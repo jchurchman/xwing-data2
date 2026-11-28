@@ -2820,5 +2820,524 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Captive",
+    "limited": 1,
+    "xws": "captive-legendsandrelics",
+    "sides": [
+      {
+        "title": "Captive",
+        "type": "Crew",
+        "ability": "After you are declared the defender of an attack, you may spend 1 [Charge] to assign the attacker 1 deplete token.",
+        "slots": ["Crew"],
+        "charges": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "restrictions": [
+      { "factions": ["galacticempire", "firstorder", "separatistalliance"] }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Fennec Shand",
+    "limited": 1,
+    "xws": "fennecshand-legendsandrelics",
+    "sides": [
+      {
+        "title": "Fennec Shand",
+        "type": "Crew",
+        "ability": "After you fully execute a maneuver or perform a [Barrel Roll] or [Boost] action, you may spend 1 [Charge]. If you do, choose an enemy ship in your [Bullseye Arc]. That ship gains 1 strain token, and you may acquire a lock on it.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Zorii Bliss",
+    "limited": 1,
+    "xws": "zoriibliss-legendsandrelics",
+    "sides": [
+      {
+        "title": "Zorii Bliss",
+        "type": "Crew",
+        "ability": "After a jammed enemy ship at range 1-2 removes a green token, you may spend 1 [Charge] to gain a matching token.",
+        "slots": ["Crew"],
+        "charges": { "value": 1, "recovers": 1 },
+        "grants": [
+          {
+            "type": "action",
+            "value": { "difficulty": "White", "type": "Jam" }
+          }
+        ]
+      }
+    ],
+    "restrictions": [
+      { "action": { "type": "Jam" } },
+      { "factions": ["resistance"] }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Ahsoka Tano",
+    "limited": 1,
+    "xws": "ahsokatano-legendsandrelics",
+    "sides": [
+      {
+        "title": "Ahsoka Tano",
+        "type": "Crew",
+        "ability": "Before you activate, you may spend 1 [Force] to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your [Front Arc] at range 1.",
+        "slots": ["Crew"],
+        "force": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Thrawn",
+    "limited": 1,
+    "xws": "thrawn-legendsandrelics",
+    "sides": [
+      {
+        "title": "Thrawn",
+        "type": "Crew",
+        "ability": "While you perform a [Jam] or [Coordinate] action, you may spend 1 [Charge] to increase the range requirement for that action by 1. After you perform a [Jam] or [Coordinate] action, you may spend 2 [Charge] to perform a [Jam] or [Coordinate] action, treating it as red.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 1 },
+        "grants": [
+          { "type": "action", "value": { "difficulty": "Red", "type": "Jam" } }
+        ]
+      }
+    ],
+    "restrictions": [{ "factions": ["galacticempire"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Leia Organa",
+    "limited": 1,
+    "xws": "leiaorgana-epicsl",
+    "sides": [
+      {
+        "title": "Leia Organa",
+        "type": "Crew",
+        "ability": "After a friendly ship at range 0-3 is destroyed, choose another friendly ship at range 0-3. It may perform a [Boost] or [Focus] action.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R2-D2",
+    "limited": 1,
+    "xws": "r2d2-epicsl",
+    "sides": [
+      {
+        "title": "R2-D2",
+        "type": "Crew",
+        "ability": "At the end of the Engagement Phase, if you are not shielded, you may roll 1 attack die to recover one [Shield]. If you do, on a [Hit] result, deal 1 facedown damage card to this ship.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "C-3PO",
+    "limited": 1,
+    "xws": "c3po-epicsl",
+    "sides": [
+      {
+        "title": "C-3PO",
+        "type": "Crew",
+        "ability": "While you defend, you may gain 1 strain token. If you do, change 1 of your results to an [Evade] result.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Thrawn",
+    "limited": 1,
+    "xws": "thrawn-epicsl",
+    "sides": [
+      {
+        "title": "Thrawn",
+        "type": "Crew",
+        "ability": "Before an enemy ship at range 0-3 reveals its dial, you may spend 1 [Charge] and choose a number. If the speed on the dial matches your choice, acquire a lock on that ship or recover 1 [Energy].",
+        "slots": ["Crew"],
+        "charges": { "value": 1, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Inferno Squad",
+    "limited": 0,
+    "xws": "infernosquad-epicsl",
+    "sides": [
+      {
+        "title": "Inferno Squad",
+        "type": "Crew",
+        "ability": "While a friendly Gideon Hask, Del Meeko, or Seyn Marana ship at range 0-2 performs an attack, you may suffer 1 [Hit] damage. If you do, they may change one of their results to a hit result.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Azmorigan",
+    "limited": 1,
+    "xws": "azmorigan-epicsl",
+    "sides": [
+      {
+        "title": "Azmorigan",
+        "type": "Crew",
+        "ability": "After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may equip an [Illicit] upgrade attached to that ship to this one. Recover all charges on it.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Chewbacca",
+    "limited": 1,
+    "xws": "chewbacca-armedanddangerous",
+    "sides": [
+      {
+        "title": "Chewbacca",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 2 [Charge] to repair 1 faceup damage card.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "L3-37",
+    "limited": 1,
+    "xws": "l337-armedanddangerous",
+    "sides": [
+      {
+        "title": "L3-37",
+        "type": "Crew",
+        "ability": "While you defend, you may spend 1 [Charge]. If you do, the attacker must reroll all attack dice. If this [Charge] is inactive, decrease the difficulty of your bank [[Bank Left] and [Bank Right]] maneuvers. This upgrade's [Charge] cannot be recovered.",
+        "slots": ["Crew"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "4-LOM",
+    "limited": 1,
+    "xws": "4lom-armedanddangerous",
+    "sides": [
+      {
+        "title": "4-LOM",
+        "type": "Crew",
+        "ability": "At the start of the End Phase, you may spend 1 calculate token and choose an enemy ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Nite Owl Sentries",
+    "limited": 1,
+    "xws": "niteowlsentries-armedanddangerous",
+    "sides": [
+      {
+        "title": "Nite Owl Sentries",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 3[Charge]. At the end of the Activation Phase, if this upgrade has 0 active [Charge], each enemy ship at range 0-1 of you rolls 1 attack die. On a [Hit] or [Critical Hit] result it suffers a [Hit].",
+        "slots": ["Crew"],
+        "charges": { "value": 3, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "The Child",
+    "limited": 1,
+    "xws": "thechild-armedanddangerous",
+    "sides": [
+      {
+        "title": "The Child",
+        "type": "Crew",
+        "ability": "After you defend, if you suffered damage during that attack, recover 1 [Force].",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Todo 360",
+    "limited": 1,
+    "xws": "todo360-armedanddangerous",
+    "sides": [
+      {
+        "title": "Todo 360",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge]. If you do, you may remove 1 stress token to gain 1 strain token and 1 calculate token.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Caij Vanda",
+    "limited": 1,
+    "xws": "caijvanda-epicsl",
+    "sides": [
+      {
+        "title": "Caij Vanda",
+        "type": "Crew",
+        "ability": "While you defend, if the attacker is in your [Front Arc], add an [Evade] result.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Embo",
+    "limited": 1,
+    "xws": "embo-armedanddangerous",
+    "sides": [
+      {
+        "title": "Embo",
+        "type": "Crew",
+        "ability": "At the start of the Engagement Phase, if there is an enemy ship at range 0, you may perform a red [Reinforce] action.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "GA-75",
+    "limited": 1,
+    "xws": "ga75-epicsl",
+    "sides": [
+      {
+        "title": "GA-75",
+        "type": "Crew",
+        "ability": "Setup: Before placing forces, you may spend 2 [Charge]. If you do, choose a friendly ship with a Wing Leader upgrade. Assign the It's the Resistance condition to it.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 1 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Nix Jerd",
+    "limited": 1,
+    "xws": "nixjerd-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Nix Jerd",
+        "type": "Crew",
+        "ability": "While you perform a [Reload] action, you may spend 1 [Charge] and gain 1 strain token. If you do, you may recover 1 additional [Charge] on a [Device] upgrade.",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R0-GR",
+    "limited": 1,
+    "xws": "r0gr-evacuationofdqar",
+    "sides": [
+      {
+        "title": "R0-GR",
+        "type": "Crew",
+        "ability": "While you have 2 or fewer stress tokens, you may perform [Coordinate] and [Jam] actions, even while stressed. After you perform a [Coordinate] or [Jam] action, gain 1 calculate token.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Petty Officer Thanisson",
+    "limited": 1,
+    "xws": "pettyofficerthanisson-epicsl",
+    "sides": [
+      {
+        "title": "Petty Officer Thanisson",
+        "type": "Crew",
+        "ability": "During the Activation or Engagement Phase, after an enemy ship in your [Front Arc] at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Agent Terex",
+    "limited": 1,
+    "xws": "agentterex-epicsl",
+    "sides": [
+      {
+        "title": "Agent Terex",
+        "type": "Crew",
+        "ability": "After an enemy ship is destroyed during an attack, if the attacker is at range 1-2 of you, assign a focus token to them.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Protectorate Gleb",
+    "limited": 1,
+    "xws": "protectorategleb-epicsl",
+    "sides": [
+      {
+        "title": "Protectorate Gleb",
+        "type": "Crew",
+        "ability": "While you defend or perform an attack, during the Modify Dice step, another friendly ship at range 0-2 may gain a strain or deplete token. If they do, you may transfer one focus token from that ship to you.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Jinata Security Forces",
+    "limited": 0,
+    "xws": "jinatasecurityforces-epicsl",
+    "sides": [
+      {
+        "title": "Jinata Security Forces",
+        "type": "Crew",
+        "ability": "While you defend or perform an attack, you may spend a focus token to change a blank result to a [Hit] result or an [Evade] result",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "General Hux",
+    "limited": 1,
+    "xws": "generalhux-evacuationofdqar",
+    "sides": [
+      {
+        "title": "General Hux",
+        "type": "Crew",
+        "ability": "While you perform a white [Coordinate] action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Bail Organa",
+    "limited": 1,
+    "xws": "bailorgana-epicsl",
+    "sides": [
+      {
+        "title": "Bail Organa",
+        "type": "Crew",
+        "ability": "At the start of the Engagement Phase, you may remove a green token from this ship. If you do, up to three other friendly ships at range 0-3 gain that token.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "AQ-Series Battle Droids",
+    "limited": 0,
+    "xws": "aqseriesbattledroids-epicsl",
+    "sides": [
+      {
+        "title": "AQ-Series Battle Droids",
+        "type": "Crew",
+        "ability": "After an enemy ship at range 0-2 becomes tractored, assign it a jam token.",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

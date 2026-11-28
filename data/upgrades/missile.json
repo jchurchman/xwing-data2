@@ -426,5 +426,78 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Seeker Missiles",
+    "limited": 0,
+    "xws": "seekermissiles-legendsandrelics",
+    "sides": [
+      {
+        "title": "Seeker Missiles",
+        "type": "Missile",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Modify Attack Dice step, you may spend up to 2 additional [Charge]. Change 1 [Focus] result to a [Hit] result for each [Charge] spent this way.",
+        "slots": ["Missile"],
+        "charges": { "value": 4, "recovers": 0 },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": true
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Twin Missile Launcher",
+    "limited": 0,
+    "xws": "twinmissilelauncher-epicsl",
+    "sides": [
+      {
+        "title": "Twin Missile Launcher",
+        "type": "Missile",
+        "ability": "Bonus attack: Spend 1 energy. Bonus attack: Spend 1 energy.",
+        "slots": ["Missile"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Seeker Missiles",
+    "limited": 0,
+    "xws": "seekermissiles-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Seeker Missiles",
+        "type": "Missile",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Modify Attack Dice step, you may spend up to 2 additional [Charge]. Change one [Focus] result to a [Hit] result for each [Charge] spent in this way.",
+        "slots": ["Missile"],
+        "charges": { "value": 4, "recovers": 0 },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": true
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

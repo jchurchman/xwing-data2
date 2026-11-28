@@ -272,6 +272,32 @@
       ],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
+    },
+    {
+      "name": "Quinlan Vos",
+      "caption": "Darkness Within",
+      "xws": "quinlanvos-legendsandrelics",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may acquire a lock on a ship in your [Bullseye Arc].",
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "force": { "value": 2, "recovers": 1, "side": ["dark", "light"] },
+      "keywords": ["Jedi", "Light Side", "Dark Side"],
+      "slots": [
+        "Talent",
+        "Force Power",
+        "Astromech",
+        "Cannon",
+        "Modification",
+        "Force Power",
+        "Illicit"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Eta-2_Actis.png"

@@ -308,5 +308,125 @@
       { "sizes": ["Huge"] },
       { "ships": ["tridentclassassaultship"] }
     ]
+  },
+  {
+    "name": "Planetary Ion Bombardment",
+    "limited": 0,
+    "xws": "planetaryionbombardment-epicsl",
+    "sides": [
+      {
+        "title": "Planetary Ion Bombardment",
+        "type": "Hardpoint",
+        "ability": "Bonus Attack ([Lock]): Attack 1 medium, large or huge ship. If this attack hits, all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Full Front Arc",
+          "value": 5,
+          "minrange": 1,
+          "maxrange": 3,
+          "ordnance": true
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Heavy Laser Cannon Turret",
+    "limited": 0,
+    "xws": "heavylasercannonturret-epicsl",
+    "sides": [
+      {
+        "title": "Heavy Laser Cannon Turret",
+        "type": "Hardpoint",
+        "ability": "Bonus attack: Spend 1 energy. Roll an additional attack die at range 3.",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Modified Dorsal Turret",
+    "limited": 0,
+    "xws": "modifieddorsalturret-epicsl",
+    "sides": [
+      {
+        "title": "Modified Dorsal Turret",
+        "type": "Hardpoint",
+        "ability": "Bonus Attack",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 3,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Drill Beak",
+    "limited": 0,
+    "xws": "drillbeak-epicsl",
+    "sides": [
+      {
+        "title": "Drill Beak",
+        "type": "Hardpoint",
+        "ability": "Bonus Attack: If the attack range is 0, change all [Hit] results to [Critical Hit] results.",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Rear Arc",
+          "value": 3,
+          "minrange": 0,
+          "maxrange": 1,
+          "ordnance": true
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Point Defense Battery",
+    "limited": 0,
+    "xws": "pointdefensebattery-epicsl",
+    "sides": [
+      {
+        "title": "Point Defense Battery",
+        "type": "Hardpoint",
+        "ability": "Attack: Spend 1 [Energy]. Attack: Spend 1 [Energy]. Attack: Spend 1 [Energy]. Attack: Spend 1 [Energy].",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Double Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": false
+        }
+      }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false,
+    "standardLoadoutOnly": true
   }
 ]

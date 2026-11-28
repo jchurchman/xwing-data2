@@ -62,6 +62,37 @@
         "Cargo",
         "Title"
       ]
+    },
+    {
+      "name": "Trebor Zednem",
+      "caption": "Bright Hope",
+      "xws": "treborzednem-epicsl",
+      "initiative": 7,
+      "limited": 1,
+      "engagement": 1,
+      "shipAbility": {
+        "name": "Resupply Craft",
+        "text": "After another friendly ship at range 0-1 performs an action, you may spend 1 [Energy]. If you do, it removes 1 orange or red token, or recovers 1 shield."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": { "difficulty": "Red", "type": "Coordinate" }
+        },
+        { "difficulty": "Red", "type": "Lock" },
+        { "difficulty": "White", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" }
+      ],
+      "standardLoadout": [
+        "torynfarr",
+        "planetaryionbombardment-epicsl",
+        "brighthope"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

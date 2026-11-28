@@ -67,6 +67,40 @@
         "Cargo",
         "Title"
       ]
+    },
+    {
+      "name": "Iden Versio",
+      "caption": "Corvus",
+      "xws": "idenversio-epicsl",
+      "initiative": 8,
+      "limited": 1,
+      "engagement": 0,
+      "shipAbility": {
+        "name": "Concentrated Batteries",
+        "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": { "difficulty": "Red", "type": "Focus" }
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Coordinate" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "standardLoadout": [
+        "ruthless",
+        "fanatical-epicsl",
+        "infernosquad-epicsl",
+        "twinmissilelauncher-epicsl",
+        "corvus-epicsl"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

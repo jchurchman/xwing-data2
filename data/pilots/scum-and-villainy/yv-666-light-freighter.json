@@ -159,6 +159,27 @@
       "extended": true,
       "keywords": ["Freighter"],
       "epic": true
+    },
+    {
+      "name": "Bossk",
+      "caption": "Armed and Dangerous",
+      "xws": "bossk-armedanddangerous",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "While you perform an attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
+      "shipAbility": {
+        "name": "Imposing Behemoth",
+        "text": "While an enemy ship at range 0 defends, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, that enemy ship rolls 1 fewer defense die."
+      },
+      "standardLoadout": [
+        "embo-armedanddangerous",
+        "contrabandcybernetics",
+        "houndstooth-armedanddangerous"
+      ],
+      "keywords": ["Bounty Hunter", "Freighter"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

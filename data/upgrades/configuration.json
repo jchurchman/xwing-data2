@@ -749,5 +749,43 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Winged Reversal",
+    "limited": 0,
+    "xws": "wingedreversal-legendsandrelics",
+    "sides": [
+      {
+        "title": "Winged Reversal",
+        "type": "Configuration",
+        "ability": "After you reveal a turn [[Turn Left] or [Turn Right]] maneuver, you may spend 1 [Charge], gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver in the same direction instead.",
+        "slots": ["Configuration"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "ships": ["gauntletfighter", "ut60duwing"] }],
+    "standard": false,
+    "extended": false,
+    "epic": false
+  },
+  {
+    "name": "Gravitic Well",
+    "limited": 0,
+    "xws": "graviticwell-legendsandrelics",
+    "sides": [
+      {
+        "title": "Gravitic Well",
+        "type": "Configuration",
+        "ability": "At the start of the Engagement Phase, if you are tractored, each other small ship at range 0-1 gains 1 strain token. Replace any instance of 'if the defender is tractored' in your pilot ability with 'if you are tractored'.",
+        "slots": ["Configuration"]
+      }
+    ],
+    "restrictions": [
+      { "ships": ["nantexclassstarfighter"] },
+      { "standardized": true }
+    ],
+    "standard": false,
+    "extended": false,
+    "epic": false
   }
 ]

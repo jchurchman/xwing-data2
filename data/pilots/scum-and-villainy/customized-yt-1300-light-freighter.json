@@ -135,6 +135,40 @@
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
       "epic": true
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Armed and Dangerous",
+      "xws": "hansolo-armedanddangerous",
+      "initiative": 6,
+      "limited": 1,
+      "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
+      "shipAbility": {
+        "name": "Coaxium Injectors",
+        "text": "After you fully execute a speed 3 or 4 maneuver, you may spend 1 [Charge] to perform a red [SLAM] action, even while stressed. After you perform a [SLAM] action, you suffer 1 [Critical Hit] unless you expose 1 of your damage cards."
+      },
+      "charges": { "value": 1, "recovers": 0 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Boost" },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc",
+          "linked": { "difficulty": "Red", "type": "Focus" }
+        }
+      ],
+      "shipStats": [{ "type": "shields", "value": 5 }],
+      "standardLoadout": [
+        "chewbacca-armedanddangerous",
+        "l337-armedanddangerous",
+        "tobiasbeckett-armedanddangerous",
+        "landosmillenniumfalcon-armedanddangerous"
+      ],
+      "keywords": ["Freighter", "YT-1300"],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }

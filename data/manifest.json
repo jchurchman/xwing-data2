@@ -58,7 +58,8 @@
         "data/pilots/scum-and-villainy/trident-class-assault-ship.json",
         "data/pilots/scum-and-villainy/yv-666-light-freighter.json",
         "data/pilots/scum-and-villainy/yt-2400-light-freighter.json",
-        "data/pilots/scum-and-villainy/z-95-af4-headhunter.json"
+        "data/pilots/scum-and-villainy/z-95-af4-headhunter.json",
+        "data/pilots/scum-and-villainy/naboo-royal-n-1-starfighter.json"
       ]
     },
     {
@@ -95,7 +96,8 @@
         "data/pilots/resistance/resistance-transport.json",
         "data/pilots/resistance/resistance-transport-pod.json",
         "data/pilots/resistance/fireball.json",
-        "data/pilots/resistance/bta-nr2-y-wing.json"
+        "data/pilots/resistance/bta-nr2-y-wing.json",
+        "data/pilots/resistance/cr90-corellian-corvette.json"
       ]
     },
     {
@@ -127,7 +129,8 @@
         "data/pilots/separatist-alliance/trident-class-assault-ship.json",
         "data/pilots/separatist-alliance/firespray-class-patrol-craft.json",
         "data/pilots/separatist-alliance/rogue-class-starfighter.json",
-        "data/pilots/separatist-alliance/gauntlet-fighter.json"
+        "data/pilots/separatist-alliance/gauntlet-fighter.json",
+        "data/pilots/separatist-alliance/gozanti-class-cruiser.json"
       ]
     },
     {
@@ -145,7 +148,8 @@
         "data/pilots/galactic-republic/laat-i-gunship.json",
         "data/pilots/galactic-republic/nimbus-class-v-wing.json",
         "data/pilots/galactic-republic/syliure-class-hyperspace-ring.json",
-        "data/pilots/galactic-republic/clone-z-95-headhunter.json"
+        "data/pilots/galactic-republic/clone-z-95-headhunter.json",
+        "data/pilots/galactic-republic/gozanti-class-cruiser.json"
       ]
     }
   ],

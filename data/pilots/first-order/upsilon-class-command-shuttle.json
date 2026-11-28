@@ -213,6 +213,27 @@
       "standard": false,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Petty Officer Thanisson",
+      "caption": "Evacuation of D'Qar",
+      "xws": "pettyofficerthanisson-evacuationofdqar",
+      "initiative": 1,
+      "limited": 1,
+      "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 deplete or strain token, you may spend 1[Charge]. If you do, that ship gains 1 stress token.",
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      },
+      "charges": { "value": 1, "recovers": 1 },
+      "standardLoadout": [
+        "generalhux-evacuationofdqar",
+        "advancedsensors",
+        "interferencearray-evacuationofdqar"
+      ],
+      "standard": false,
+      "extended": false,
+      "epic": false
     }
   ]
 }
